@@ -1,11 +1,11 @@
-site_name: Cloud Native Data Workshop
-site_description: Cloud Native Data Workship
+site_name: Drone Mapping Class
+site_description: Drone Mapping Class
 site_author: Jeffrey Gillan
-site_url: https://jeffgillan.github.io/cloud-native-geospatial
+site_url: https://jeffgillan.github.io/Drone-mapping-class
 
 # Repository
-repo_name: cloud-native-geospatial
-repo_url: https://github.com/jeffgillan/cloud-native-geospatial
+repo_name: Drone-mapping-class
+repo_url: https://github.com/jeffgillan/Drone-mapping-class
 edit_uri: edit/main/docs/
 # Copyright
 copyright: 'License CC by 4.0'
