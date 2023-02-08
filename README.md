@@ -1,9 +1,9 @@
-# agic-2022
-MkDocs pages for AGIC Cloud Native Data Workshop, Prescott AZ, August 30 - September 2
+# Drone Mapping Class
+Testing
 
 # development instructions
 
-`git clone https://github.com/tyson-swetnam/agic-2022`
+`git clone https://github.com/jeffgillan/Drone-mapping-class`
 
 `pip install -r requirements_mkdocs.txt`
 
