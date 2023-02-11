@@ -17,13 +17,12 @@ nav:
   - Drone Legality: drone_legality.md
   - Flight Mission Planning: flight_mission_planning.md
   - Flight Operations: flight_operations.md
-  - Jupyter Notebook Examples:
-    - GeoJSON: notebooks/geojson.ipynb
-    - COPC: notebooks/copc.ipynb
-    - COG: notebooks/cog.ipynb
-    - XArray: notebooks/xarray.ipynb
-    - Zarr: notebooks/zarr.ipynb
-    - STAC: notebooks/stac.ipynb
+  - Photogrammetry: photogrammetry.md
+  - Referencing: referencing.md
+  - Imagery Products: imagery_products.md
+  - Multi Spectral: multispectral.md
+  - Natural Resource Applications: natural_resource.md
+  - Classification: classification.md
     
 # Configuration
 theme:
