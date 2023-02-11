@@ -15,11 +15,8 @@ nav:
   - Introduction: index.md
   - Drone Mapping Applications: Drone_Mapping_Applications.md
   - Drone Legality: drone_legality.md
-  - Rasters:
-    - Cloud Optimized GeoTiff: cog.md
-    - X Array: xarray.md
-    - Zarr: zarr.md
-  - SpatioTemporal Asset Catalogs: stac.md
+  - Flight Mission Planning: flight_mission_planning.md
+  - Flight Operations: flight_operations.md
   - Jupyter Notebook Examples:
     - GeoJSON: notebooks/geojson.ipynb
     - COPC: notebooks/copc.ipynb
