@@ -14,9 +14,7 @@ copyright: 'License CC by 4.0'
 nav:
   - Introduction: index.md
   - Drone Mapping Applications: Drone_Mapping_Applications.md
-  - Vectors:
-    - GeoJSON: geojson.md
-    - Cloud Optimized Point Clouds: copc.md
+  - Drone Legality: drone_legality.md
   - Rasters:
     - Cloud Optimized GeoTiff: cog.md
     - X Array: xarray.md
