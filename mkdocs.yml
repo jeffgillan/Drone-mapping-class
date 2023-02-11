@@ -13,7 +13,7 @@ copyright: 'License CC by 4.0'
 # Page tree
 nav:
   - Introduction: index.md
-  - Integrated Development Environments: ide.md
+  - Drone Mapping Applications: Drone_Mapping_Applications.md
   - Vectors:
     - GeoJSON: geojson.md
     - Cloud Optimized Point Clouds: copc.md
