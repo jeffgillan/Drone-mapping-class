@@ -7,4 +7,4 @@
 [Jeffrey Gillan, PhD](https://www.gillanscience.com){target=_blank} 
 ## About
 
-
+This is an introductory course on how to use small drones for aerial mapping of land and resources.
