@@ -29,7 +29,7 @@
 
 
 ### Mounting
-![](images/gimbal_mount.png)
+![](images/gimbal.png)
 ![](images/static_mount.png)
 
 
