@@ -5,7 +5,7 @@
 <br/>
 <br/>
 ### Drone Types
-<img src="images/multi_rotor.png" width="300" height="100">
+<img src="images/multi_rotor.png">
 <br/>
 <img src="images/fixed_wing.png" width="300" height="100">
 <br/>
