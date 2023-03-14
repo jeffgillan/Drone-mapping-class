@@ -8,7 +8,7 @@
 ![](images/multi_rotor.png|width=100)
 ![](images/fixed_wing.png =250x250)
 ![](images/vtol.png)
-<img src="images/vtol.png" width="100" height="100">
+<img src="images/vtol.png">
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1VUXgwoNQRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             
