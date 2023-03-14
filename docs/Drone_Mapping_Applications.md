@@ -6,13 +6,10 @@
 <br/>
 <br/>
 ### Drone Types
-<img src="images/multi_rotor.png">
-<br/>
-<img src="images/fixed_wing.png" width="300" height="100">
-<br/>
-<img src="images/vtol.png" width="300" height="100"/>
 
-![](images/vtol.png){:height=100 width=100}
+![](images/fixed_wing.png){:height=200 width=300}
+
+![](images/multi_rotor.png){:height=200 width=300}
 
 ![](images/vtol.png){:height="200" width="300"}
 
