@@ -1,4 +1,4 @@
-![Drone Examples](https://github.com/jeffgillan/resource_mapping_with_drones/assets/images/Drone_examples.png){ width="700" }
+![Drone Examples](https://github.com/jeffgillan/resource_mapping_with_drones/assets/images/Drone_examples_1.png){ width="700" }
 
 
 
