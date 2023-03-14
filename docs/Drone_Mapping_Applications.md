@@ -39,7 +39,7 @@
 
 ## Advantages of Drones
 
-![](images/scale.png)
+![](images/scale1.png)
 
 ## Limitations of Drones
 
