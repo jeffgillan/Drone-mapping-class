@@ -1,5 +1,5 @@
 <figure markdown>
-  <a href="https://github.com/jeffgillan/resource_mapping_with_drones/assets/images/Drone_examples_1.png" target="blank" rel="Drone Examples">![geotiff_pyramid](https://github.com/jeffgillan/resource_mapping_with_drones/assets/images/Drone_examples_1.png){ width="700" } </a>
+  <a href="https://github.com/jeffgillan/resource_mapping_with_drones/assets/images/Drone_examples_1.png" target="blank" rel="Drone Examples">![drones](https://github.com/jeffgillan/resource_mapping_with_drones/assets/images/Drone_examples_1.png){ width="700" } </a>
     <figcaption>Some Drone Models</figcaption>
 </figure>
 
