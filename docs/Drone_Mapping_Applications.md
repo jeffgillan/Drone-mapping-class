@@ -21,12 +21,25 @@
 
 ## Unmanned Aircraft System
 
-## Drone Sensors
-### Mounting
+![](images/unnanned_aircraft_system.png)
 
-## Onboard Tech
+## Drone Sensors
+![](images/sensors.png)
+![](images/hyperspec.png)
+
+
+### Mounting
+![](images/gimbal_mount.png)
+![](images/static_mount.png)
+
+
+## Other Onboard Tech
+![](images/gps.png)
+![](images/imu.png)
 
 ## Advantages of Drones
+
+![](images/scale.png)
 
 ## Limitations of Drones
 
