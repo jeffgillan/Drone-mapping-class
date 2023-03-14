@@ -1,4 +1,11 @@
 ## Terminology
+Unmmaned Aircraft (UA)
+Unmanned Aerial Vehicle (UAV)
+Unmanned Aerial System (UAS)
+Uncrewed Aerial System (UAS)
+Small Unmanned Aerial System (sUAS)
+Remotely Piloted Aircraft (RPA)
+Drone
 
 ## Drone Types
 ![](images/fixed_wing.png){:height=200 width=300}
