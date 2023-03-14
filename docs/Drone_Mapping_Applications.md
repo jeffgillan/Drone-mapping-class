@@ -21,7 +21,7 @@
 
 ## Unmanned Aircraft System
 
-![](images/unnanned_aircraft_system.png)
+![](images/unnammed_aircraft_system.png)
 
 ## Drone Sensors
 ![](images/sensors.png)
