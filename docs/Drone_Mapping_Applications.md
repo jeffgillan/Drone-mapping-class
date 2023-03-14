@@ -1,4 +1,7 @@
-![Drone Examples](https://github.com/jeffgillan/resource_mapping_with_drones/assets/images/Drone_examples_1.png){ width="700" }
+<figure markdown>
+  <a href="https://github.com/jeffgillan/resource_mapping_with_drone/assets/images/Drone_examples_1.png" target="blank" rel="geotiff_pyramid">![geotiff_pyramid](https://github.com/jeffgillan/resource_mapping_with_drone/assets/images/Drone_examples_1.png){ width="700" } </a>
+    <figcaption>GeoTIFF pyramid by Zoom Level</figcaption>
+</figure>
 
 
 
