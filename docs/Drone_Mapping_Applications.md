@@ -1,7 +1,7 @@
-<img src='/assets/images/drone_examples_1.png'>
+<img src='../assets/images/drone_examples_1.png'>
 
 
-![Drone](assets/images/drone_examples_1.png)
+![Drone](..assets/images/drone_examples_1.png)
 
 ![Drone](resource_mapping_with_drones/assets/images/drone_examples_1.png)
 
