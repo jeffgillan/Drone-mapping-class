@@ -6,7 +6,7 @@
 
 [Jeffrey Gillan, PhD](https://www.gillanscience.com){target=_blank} 
 ## About
-
+![](images/jornada_drone.png){:height=300 width=300}
 This is an introductory course on how to use small drones for aerial mapping of land and resources.
 
 ## Terminology
