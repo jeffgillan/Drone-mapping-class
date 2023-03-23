@@ -7,6 +7,7 @@
 [Jeffrey Gillan, PhD](https://www.gillanscience.com){target=_blank} 
 ## About
 ![](images/jornada_drone.png){:height=300 width=300}
+<br/>
 This is an introductory course on how to use small drones for aerial mapping of land and resources.
 
 ## Terminology
@@ -31,7 +32,8 @@ Remotely Piloted Aircraft (RPA)
 ## Drone Types
 ![](images/multi_rotor.png){:height=200 width=300}
 <br/>
-Multi-rotor drones are great aircraft. I highly recommend them. 
+Multi-rotor drones are great aircraft. Here are some characteristics: 
+<br/>
 * Usually Less Expensive to Buy
 * Vertical Launch and Landing
 * Shorter Flight Endurance
@@ -51,6 +53,7 @@ Multi-rotor drones are great aircraft. I highly recommend them.
 * Less Control of Camera Angle (via gimbal)
 <br/>
 ![](images/vtol.png){:height="200" width="300"}
+<br/>
 * All the advantages of the fixed-wing with the ability of vertical take-off and landing. 
 
 
