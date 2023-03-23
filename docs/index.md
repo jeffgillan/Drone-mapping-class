@@ -10,13 +10,23 @@
 This is an introductory course on how to use small drones for aerial mapping of land and resources.
 
 ## Terminology
+The term **drone** has become the most common way to refer to a remote control or autonomous aircraft. 
+<br/>
+
+There are a number of acronyms used to refer to drones.
+
 Unmmaned Aircraft (UA)
+<br/>
 Unmanned Aerial Vehicle (UAV)
+<br/>
 Unmanned Aerial System (UAS)
+<br/>
 Uncrewed Aerial System (UAS)
+<br/>
 Small Unmanned Aerial System (sUAS)
+<br/>
 Remotely Piloted Aircraft (RPA)
-Drone
+
 
 ## Drone Types
 ![](images/fixed_wing.png){:height=200 width=300}
