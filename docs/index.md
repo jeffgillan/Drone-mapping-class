@@ -31,15 +31,10 @@ Remotely Piloted Aircraft (RPA)
 ## Drone Types
 ![](images/multi_rotor.png){:height=200 width=300}
 <br/>
-- Usually Less Expensive to Buy
-- Vertical Launch and Landing
-
-
-
-
-
-
-*Shorter Flight Endurance
+Multi-rotor drones are great aircraft. I highly recommend them. 
+* Usually Less Expensive to Buy
+* Vertical Launch and Landing
+* Shorter Flight Endurance
 * Able to Map Smaller Areas
 * Very Precise Flying
 * Precise Control of Gimbal Angle 
