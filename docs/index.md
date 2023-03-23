@@ -39,9 +39,20 @@ Multi-rotor drones are great aircraft. I highly recommend them.
 * Very Precise Flying
 * Precise Control of Gimbal Angle 
 
-![](images/vtol.png){:height="200" width="300"}
 <br/>
 ![](images/fixed_wing.png){:height=200 width=300}
+<br/>
+* Relatively Expensive
+* Throw Launch
+* Belly Crash Landing
+* Longer Flight Endurance
+* Able to map very large areas
+* Less Precise Flying
+* Less Control of Camera Angle (via gimbal)
+<br/>
+![](images/vtol.png){:height="200" width="300"}
+* All the advantages of the fixed-wing with the ability of vertical take-off and landing. 
+
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/82gn8EFOQd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
