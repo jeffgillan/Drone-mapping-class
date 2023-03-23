@@ -39,7 +39,7 @@ Remotely Piloted Aircraft (RPA)
 
 
 
-* Shorter Flight Endurance
+*Shorter Flight Endurance
 * Able to Map Smaller Areas
 * Very Precise Flying
 * Precise Control of Gimbal Angle 
