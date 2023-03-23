@@ -29,7 +29,7 @@ Remotely Piloted Aircraft (RPA)
 
 
 ## Drone Types
-![](images/fixed_wing.png){:height=200 width=300}
+![](images/multi_rotor.png){:height=200 width=300}
 <br/>
 * Usually Less Expensive to Buy
 * Vertical Launch and Landing
@@ -38,10 +38,10 @@ Remotely Piloted Aircraft (RPA)
 * Very Precise Flying
 * Precise Control of Gimbal Angle 
 
-![](images/multi_rotor.png){:height=200 width=300}
-
 ![](images/vtol.png){:height="200" width="300"}
 <br/>
+![](images/fixed_wing.png){:height=200 width=300}
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/82gn8EFOQd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <br/>
