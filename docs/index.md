@@ -8,26 +8,38 @@
 ## About
 ![](images/jornada_drone.png){:height=300 width=300}
 <br/>
-This is an introductory course on how to use small drones for aerial mapping of land and resources.
+Welcome! This is an introductory course on how to use small drones for aerial mapping of land and resources. You will learn all the skills necessary to create precisely surveyed maps using photogrammetry methods. We will cover all of the industries and applications where drone imagery maps are making big impacts on society. Additionally, students will learn how to become licensed drones pilots with the Federal Aviation Administration (FAA). 
 
 ## Terminology
-The term **drone** has become the most common way to refer to a remote control or autonomous aircraft. 
+Let's start with terminology. There are a lot of different ways to refer to a remote control aircraft. I use the term **drone** most often because this has become the defacto term in society. Most people understand what you mean when you say **drone**. 
 <br/>
 
-There are a number of acronyms used to refer to drones.
+There are a number of different acronyms used to refer to drones. Some differ depending on the industry, application, or context. But for the most part, the following acronyms are generally interchangeable. 
 
-Unmmaned Aircraft (UA)
+**Unmmaned Aircraft (UA)**
 <br/>
-Unmanned Aerial Vehicle (UAV)
+This is an aircraft where the pilot is not onboard. It is piloted remotely, probably through radio signals. 
 <br/>
-Unmanned Aerial System (UAS)
+**Unmanned Aerial Vehicle (UAV)**
 <br/>
-Uncrewed Aerial System (UAS)
+This is the same thing as a **UA**
 <br/>
-Small Unmanned Aerial System (sUAS)
+**Unmanned Aerial System (UAS)**
 <br/>
-Remotely Piloted Aircraft (RPA)
-
+This term refers to the entire flying system, not just the aircraft itself. Other components of the system include the remote control, the pilot, GPS, IMU, cameras, etc.
+<br/>
+**Uncrewed Aerial System (UAS)**
+<br/>
+This is the gender neurtral term for **UAS** 
+<br/>
+**Small Unmanned Aerial System (sUAS)**
+<br/>
+This term refers to a specific weight class of UAV aircraft as designated by the FAA. To meet the definition of sUAS, aircraft need to weight less than 55 lbs on takeoff. 
+<br/>
+**Remotely Piloted Aircraft (RPA)**
+<br/>
+This is just another term for a drone that does not seem to get much use nowadays. 
+<br/>
 
 ## Drone Types
 ![](images/multi_rotor.png){:height=200 width=300}
