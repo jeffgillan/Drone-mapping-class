@@ -12,11 +12,11 @@
 Welcome! This is an introductory course on how to use small drones for aerial mapping of land and resources. 
 <br/>
 
-&nbsp; &nbsp; &nbsp; * You will learn all the skills necessary to create precisely surveyed maps using photogrammetry methods. 
+* You will learn all the skills necessary to create precisely surveyed maps using photogrammetry methods. 
 
-&nbsp; &nbsp; &nbsp; * We will cover all of the industries and applications where drone imagery maps are making big impacts on society. 
+* We will cover all of the industries and applications where drone imagery maps are making big impacts on society. 
 
-&nbsp; &nbsp; &nbsp; * Additionally, students will learn how to become licensed drones pilots with the Federal Aviation Administration (FAA). 
+* Additionally, students will learn how to become licensed drones pilots with the Federal Aviation Administration (FAA). 
 
 ## Terminology
 Let's start with terminology. There are a lot of different ways to refer to a remote control aircraft. I use the term **drone** most often because this has become the defacto term in society. Most people understand what you mean when you say **drone**. 
