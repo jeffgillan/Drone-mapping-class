@@ -2,17 +2,30 @@
 ## Mapping Applications
 ### Plant Agriculture
 ### Rangeland Management
+![](images/cows_srer.png){:height=300 width=300}
+
 ### Construction
 ### Civil Engineering
 ### Forestry
+![](images/forest_images.png){:height=300 width=300}
+
 ### Mining
+![](images/mining1.png){:height=300 width=300}
+![](images/mining2.png){:height=200 width=300}
+
+
 ### Geology/Volcanology
 ### Marine Environments
+![](images/coral_reef.png){:height=200 width=300}
+
 ### Rivers & Wetlands
 ### Topographic Change
 ### Wildlife Surveys
 ### Archaelogy
+![](images/archaeology.png){:height=200 width=300}
+
 ### Disaster Management
+![](images/disaster.png){:height=300 width=300}
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1VUXgwoNQRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
