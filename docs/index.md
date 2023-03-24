@@ -71,6 +71,8 @@ Multi-rotor drones are great aircraft. Here are some characteristics:
 * Very Precise Flying
 
 * Precise Control of Gimbal Angle 
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4qCRVOGjFgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <br/>
 ![](images/fixed_wing.png){:height=200 width=300}
@@ -89,6 +91,11 @@ Multi-rotor drones are great aircraft. Here are some characteristics:
 * Less Precise Flying
 
 * Less Control of Camera Angle (via gimbal)
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/82gn8EFOQd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br/>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BlsHC1kSrE4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <br/>
 ![](images/vtol.png){:height="200" width="300"}
@@ -98,11 +105,6 @@ Multi-rotor drones are great aircraft. Here are some characteristics:
 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/82gn8EFOQd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<br/>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4qCRVOGjFgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<br/>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BlsHC1kSrE4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Drone Models
 ![](images/drone_examples_1.png)
