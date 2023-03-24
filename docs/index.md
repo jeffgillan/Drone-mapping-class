@@ -121,13 +121,13 @@ Multi-rotor drones are great aircraft. Here are some characteristics:
 ![](images/unnammed_aircraft_system.png)
 
 ## Drone Sensors
-![](images/sensors.png){:height=400 width=400}
-![](images/hyperspec.png){:height=300 width=300}
+![](images/sensors.png){:height=500 width=500}
+![](images/hyperspec.png){:height=350 width=350}
 
 
 ### Mounting
 ![](images/gimbal.png)
-![](images/static_mount.png){:height=300 width=300}
+![](images/static_mount.png){:height=500 width=500}
 
 
 ## Other Onboard Tech
@@ -136,6 +136,6 @@ Multi-rotor drones are great aircraft. Here are some characteristics:
 
 ## Advantages of Drones
 
-![](images/scale1.png){:height=400 width=250}
+![](images/scale1.png){:height=600 width=400}
 
 ## Limitations of Drones
