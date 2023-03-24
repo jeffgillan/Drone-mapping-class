@@ -3,6 +3,7 @@
 ### Plant Agriculture
 ### Rangeland Management
 ![](images/cows_srer.png){:height=300 width=300}
+![](images/srer_pointcloud.png){:height=200 width=300}
 
 ### Construction
 ### Civil Engineering
@@ -21,8 +22,10 @@
 ### Rivers & Wetlands
 ### Topographic Change
 ### Wildlife Surveys
+![](images/monkey_survey.png){:height=200 width=300}
+
 ### Archaelogy
-![](images/archaeology.png){:height=200 width=300}
+![](images/archaelogy.png){:height=200 width=300}
 
 ### Disaster Management
 ![](images/disaster.png){:height=300 width=300}
