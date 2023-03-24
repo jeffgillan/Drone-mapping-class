@@ -50,16 +50,25 @@ Multi-rotor drones are great aircraft. Here are some characteristics:
 <br/>
 ![](images/fixed_wing.png){:height=200 width=300}
 <br/>
+
 * Relatively Expensive
+
 * Throw Launch
+
 * Belly Crash Landing
+
 * Longer Flight Endurance
+
 * Able to map very large areas
+
 * Less Precise Flying
+
 * Less Control of Camera Angle (via gimbal)
+
 <br/>
 ![](images/vtol.png){:height="200" width="300"}
 <br/>
+
 * All the advantages of the fixed-wing with the ability of vertical take-off and landing. 
 
 
