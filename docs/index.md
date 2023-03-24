@@ -34,10 +34,10 @@ Remotely Piloted Aircraft (RPA)
 <br/>
 Multi-rotor drones are great aircraft. Here are some characteristics: 
 <br/>
-* Usually Less Expensive to Buy
-* Vertical Launch and Landing
-* Shorter Flight Endurance
-* Able to Map Smaller Areas
++ Usually Less Expensive to Buy
++ Vertical Launch and Landing
+- Shorter Flight Endurance
+-Able to Map Smaller Areas
 * Very Precise Flying
 * Precise Control of Gimbal Angle 
 
