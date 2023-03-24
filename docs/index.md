@@ -9,8 +9,6 @@
 ![](images/jornada_drone.png){:height=300 width=300}
 
 ## About the Course
-
-<br/>
 Welcome! This is an introductory course on how to use small drones for aerial mapping of land and resources. 
 <br/>
 
