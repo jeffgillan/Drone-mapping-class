@@ -23,6 +23,7 @@ nav:
   - Multi Spectral: multi_spectral.md
   - Natural Resource Applications: natural_resource.md
   - Classification: classification.md
+  - Cloud Native: cloud_native.md
     
 # Configuration
 theme:
