@@ -112,7 +112,10 @@ Multi-rotor drones are great aircraft. Here are some characteristics:
 
 <br/>
 <br/>
-
+[DJI](https://www.dji.com/)
+[Autel Robotics](https://www.autelrobotics.com/)
+[Skydio](https://www.skydio.com/)
+[Wingtra](https://wingtra.com/)
             
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Blr3suSQt-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>     
 
