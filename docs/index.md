@@ -131,6 +131,9 @@ Multi-rotor drones are great aircraft. Here are some characteristics:
 ![](images/sensors.png){:height=500 width=500}
 ![](images/hyperspec.png){:height=350 width=350}
 
+[AgEagle](https://ageagle.com/){target=_blank}
+[Sentera](https://sentera.com/){target=_blank}
+[Headwall](https://www.headwallphotonics.com/products/hyperspectral-sensors){target=_blank}
 
 ### Mounting
 ![](images/gimbal.png)
