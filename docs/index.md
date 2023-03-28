@@ -136,7 +136,7 @@ Multi-rotor drones are great aircraft. Here are some characteristics:
 [Headwall](https://www.headwallphotonics.com/products/hyperspectral-sensors){target=_blank}
 
 ### Mounting
-![](images/gimbal.png)
+![](images/gimbal.png){:height=500 width=500}
 ![](images/static_mount.png){:height=500 width=500}
 
 
