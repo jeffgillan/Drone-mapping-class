@@ -6,7 +6,6 @@
 
 [Jeffrey Gillan, PhD](https://www.gillanscience.com){target=_blank} 
 <br/>
-
 I am a researcher at the University of Arizona and have been involved with aerial mapping and drones since 2011. Ever since, I have been using small drones to map and survey rangelands, forests, river corridors, wetlands, agriculture fields, and golf courses. I love helping others learn to use these powerful tools. 
 <br/>
 
@@ -59,9 +58,8 @@ This is just another term for a drone that does not seem to get much use nowaday
 <br/>
 
 ## Drone Types
-<br/>
 There are three basic drone types. Each has advantages and disadvantages that should be considered before buying or acquiring. The following section lists some of the characteristics of each type. 
-
+<br/>
 ![](images/multi_rotor.png){:height=200 width=300}
 <br/>
 
@@ -98,6 +96,8 @@ There are three basic drone types. Each has advantages and disadvantages that sh
 
 * Less Control of Camera Angle (via gimbal)
 <br/>
+This video shows a Bat4 fixed-wing drone taking off from a runway in 2012. Thankfully, most fixed-wing drones are now smaller and can launched by a single person.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/82gn8EFOQd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <br/>
 
@@ -113,10 +113,7 @@ There are three basic drone types. Each has advantages and disadvantages that sh
 
 
 ## Drone Models
-![](images/drone_examples_1.png)
-![](images/drone_examples_2.png)
-
-<br/>
+There are many companies globally making many different drone models. There is an enormous range of capabilities and price points. The options can be overwhelming to people new to this topic. To simplify things, I will list here some of the most popular companies making and selling drones today. 
 <br/>
 [DJI](https://www.dji.com/){target=_blank}
 <br/>
@@ -126,6 +123,12 @@ There are three basic drone types. Each has advantages and disadvantages that sh
 <br/>
 [Wingtra](https://wingtra.com/){target=_blank}
 <br/>
+
+![](images/drone_examples_1.png)
+![](images/drone_examples_2.png)
+
+<br/>
+
             
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Blr3suSQt-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>     
 
