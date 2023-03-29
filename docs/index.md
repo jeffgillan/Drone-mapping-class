@@ -6,6 +6,7 @@
 
 [Jeffrey Gillan, PhD](https://www.gillanscience.com){target=_blank} 
 <br/>
+
 I am a researcher at the University of Arizona and have been involved with aerial mapping and drones since 2011. Ever since, I have been using small drones to map and survey rangelands, forests, river corridors, wetlands, agriculture fields, and golf courses. I love helping others learn to use these powerful tools. 
 <br/>
 
