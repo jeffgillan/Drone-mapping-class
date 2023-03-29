@@ -168,6 +168,19 @@ DJI, a China-based company, is the world leader in the production of consumer an
 ![](images/imu.png){:height=300 width=300}
 
 ## Advantages of Drones
+<br/>
+* Provides a crucial observational scale somewhere between field measurements and airplane imagery  
+
+* Drone imagery is relatively easy and cheap to collect compared with airplane imagery
+
+* Drone imagery can cover much larger areas compared with field measurements
+
+* Drone imagery can observe and measure some vegetation and topographic characteristics better than field measurements. A great example is capturing the structure of a tree. This is very difficult to do with manual measurements. 
+
+* Drones are highly portable and can be carried almost anywhere
+
+* Drone imagery is on-demand. As long as the weather is good, I can go out and collect imagery. 
+
 
 ![](images/scale1.png){:height=600 width=400}
 
