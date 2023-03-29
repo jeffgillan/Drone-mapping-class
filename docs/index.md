@@ -60,11 +60,11 @@ This is just another term for a drone that does not seem to get much use nowaday
 
 ## Drone Types
 <br/>
+There are three basic drone types. Each has advantages and disadvantages that should be considered before buying or acquiring. The following section lists some of the characteristics of each type. 
 
 ![](images/multi_rotor.png){:height=200 width=300}
 <br/>
-Multi-rotor drones are great aircraft. Here are some characteristics: 
-<br/>
+
 
 + Usually Less Expensive to Buy
 
