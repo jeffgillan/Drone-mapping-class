@@ -167,10 +167,21 @@ This may seem a bit complex at first, but don't worry, we'll explain every compo
 
 ## Drone Sensors
 ![](images/sensors.png){:height=500 width=500}
-![](images/hyperspec.png){:height=350 width=350}
-
+The focus of this class is making photographic maps from drones, so the camera or sensor is at the center of everything we do. **Drones are flying cameras!**
+<br/>
+Many types of cameras are mountable on drones. The most common is a red, green, blue (RGB) camera, which is the regular color camera that we all have used. Drones often come with an RGB camera integrated directly into the aircraft. That makes them very easy to use. Some more fancy drones allow you to swap out different camera types.
+<br/>
+Multi-spectral cameras are very popular for drone mapping. Multi-spectral means that they collect specific wavelenghts of light including visible and near-infrared
+<br/>
+Here are a few companies that make multi-spectral drone cameras
+<br/>
 [AgEagle](https://ageagle.com/){target=_blank}
 [Sentera](https://sentera.com/){target=_blank}
+
+
+![](images/hyperspec.png){:height=350 width=350}
+
+
 [Headwall](https://www.headwallphotonics.com/products/hyperspectral-sensors){target=_blank}
 
 ### Mounting
