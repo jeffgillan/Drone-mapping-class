@@ -123,13 +123,20 @@ This video shows a Bat4 fixed-wing drone taking off from a runway in 2012. Thank
 ## Drone Models
 There are many companies globally making many different drone models. There is an enormous range of capabilities and price points. The options can be overwhelming to people new to this topic. To simplify things, I will list here some of the most popular companies making and selling drones today. 
 <br/>
+<br/>
 [DJI](https://www.dji.com/){target=_blank}
+<br/>
+DJI, a China-based company, is the world leader in the production of consumer and professional drones for photographic mapping. They make the best equipment at the lowest prices. In 2013, DJI released the Phantom 1 multi-rotor drone which was one of the first consumer drones completely assembled and ready to fly. 
+<br/>
 <br/>
 [Autel Robotics](https://www.autelrobotics.com/){target=_blank}
 <br/>
+<br/>
 [Skydio](https://www.skydio.com/){target=_blank}
 <br/>
+<br/>
 [Wingtra](https://wingtra.com/){target=_blank}
+<br/>
 <br/>
 
 ![](images/drone_examples_1.png)
