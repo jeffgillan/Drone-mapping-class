@@ -2,7 +2,7 @@
 
 # :material-cloud-braces: Resource Mapping with Drones
 
-#### Instructors(s): 
+#### Instructor: 
 
 [Jeffrey Gillan, PhD](https://www.gillanscience.com){target=_blank} 
 <br/>
@@ -173,7 +173,7 @@ The focus of this class is making photographic maps from drones, so the camera o
 <br/>
 Many types of cameras are mountable on drones. The most common is a red, green, blue (RGB) camera, which is the regular color camera that we all have used. Drones often come with an RGB camera integrated directly into the aircraft. That makes them very easy to use. Some more fancy drones allow you to swap out different camera types.
 <br/><br/>
-Multi-spectral cameras are very popular for drone mapping. Multi-spectral means that they collect specific wavelenghts of light including visible and near-infrared.
+Multi-spectral cameras are very popular for drone mapping. Multi-spectral means that they collect specific wavelenghts of light including visible and near-infrared. One of the main applications for multi-spectral mapping is observing the health of vegetation in an agricultural or natural resource context. 
 <br/><br/>
 Here are a few companies that make multi-spectral drone cameras
 <br/>
@@ -181,15 +181,16 @@ Here are a few companies that make multi-spectral drone cameras
 [Sentera](https://sentera.com/){target=_blank}
 
 
-
-
-
 Companies like [Headwall](https://www.headwallphotonics.com/products/hyperspectral-sensors){target=_blank} are manufacturing hyperspectral sensors that can be mounted on drones. 
 <br/>
 ![](images/hyperspec.png){:height=350 width=350}
 
 ### Camera Mounting
+Many integrated drone cameras will come mounted on a gimbal. A gimbal is a device used to stabilize and control the movement of a camera. It typically consists of motorized axes that work together to keep the camera level and steady. Most gimbals have a range of tilt that can be controlled from the remote control. 
+<br/>
 ![](images/gimbal.png){:height=500 width=500}
+<br/>
+Shock mounting is mounting the camera in a way that reduces the impact of vibrations or movement on the camera. It is not motorized nor can the user change the camera angle remotely.  
 ![](images/static_mount.png){:height=500 width=500}
 
 
