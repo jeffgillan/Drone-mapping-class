@@ -169,6 +169,7 @@ DJI, a China-based company, is the world leader in the production of consumer an
 
 ## Advantages of Drones
 <br/>
+
 * Provides a crucial observational scale somewhere between field measurements and airplane imagery  
 
 * Drone imagery is relatively easy and cheap to collect compared with airplane imagery
@@ -186,6 +187,7 @@ DJI, a China-based company, is the world leader in the production of consumer an
 
 ## Limitations of Drones
 <br/>
+
 * Limited Geographic coverage: A single small drone can cover hundreds and perhaps up to a few thousand acres. To cover larger areas, you need an airplane or a satellite. 
 
 * Limited Flight Endurance (battery limitations). Most multi-rotor drones can stay aloft for only 25-30 minutes. 
