@@ -185,3 +185,13 @@ DJI, a China-based company, is the world leader in the production of consumer an
 ![](images/scale1.png){:height=600 width=400}
 
 ## Limitations of Drones
+<br/>
+* Limited Geographic coverage: A single small drone can cover hundreds and perhaps up to a few thousand acres. To cover larger areas, you need an airplane or a satellite. 
+
+* Limited Flight Endurance (battery limitations). Most multi-rotor drones can stay aloft for only 25-30 minutes. 
+
+* Legal limitations including flying height above the ground, line-of-sight requirements, no operations over people. 
+
+* Requires expertise to plan, collect, process, and analyze drone imagery maps
+
+* Cost: Drone equipment, processing software, and digital storage can all be expensive
