@@ -20,6 +20,10 @@ Welcome! This is an introductory course on how to use small drones for aerial ma
 * We will cover all of the industries and applications where drone imagery maps are making big impacts on society. 
 
 * Additionally, students will learn how to become licensed drones pilots with the Federal Aviation Administration (FAA). 
+<br/>
+<br/>
+Please watch this great short video on using drones to create 2D and 3D maps. This is what you will learn in this class. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Blr3suSQt-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
 
 ## Terminology
 Let's start with terminology. There are a lot of different ways to refer to a remote control aircraft. I use the term **drone** most often because this has become the defacto term in society. Most people understand what you mean when you say **drone**. 
@@ -96,6 +100,9 @@ There are three basic drone types. Each has advantages and disadvantages that sh
 
 * Less Control of Camera Angle (via gimbal)
 <br/>
+<br/>
+<br/>
+
 This video shows a Bat4 fixed-wing drone taking off from a runway in 2012. Thankfully, most fixed-wing drones are now smaller and can launched by a single person.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/82gn8EFOQd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -129,8 +136,7 @@ There are many companies globally making many different drone models. There is a
 
 <br/>
 
-            
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Blr3suSQt-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>     
+             
 
 ## Unmanned Aircraft System
 
