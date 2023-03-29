@@ -58,6 +58,8 @@ This is just another term for a drone that does not seem to get much use nowaday
 <br/>
 
 ## Drone Types
+<br/>
+
 ![](images/multi_rotor.png){:height=200 width=300}
 <br/>
 Multi-rotor drones are great aircraft. Here are some characteristics: 
