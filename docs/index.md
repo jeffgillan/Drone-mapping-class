@@ -45,7 +45,7 @@ This term refers to the entire flying system, not just the aircraft itself. Othe
 <br/>
 **Uncrewed Aerial System (UAS)**
 <br/>
-This is the gender neurtral term for **UAS** 
+This is the gender neutral term for **UAS** 
 <br/>
 <br/>
 **Small Unmanned Aerial System (sUAS)**
