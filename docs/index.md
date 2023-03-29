@@ -22,6 +22,7 @@ Welcome! This is an introductory course on how to use small drones for aerial ma
 * Additionally, students will learn how to become licensed drones pilots with the Federal Aviation Administration (FAA). 
 <br/>
 <br/>
+
 Please watch this great short video on using drones to create 2D and 3D maps. This is what you will learn in this class. 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Blr3suSQt-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
 
