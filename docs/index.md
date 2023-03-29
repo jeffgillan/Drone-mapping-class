@@ -23,11 +23,11 @@ Welcome! This is an introductory course on how to use small drones for aerial ma
 <br/>
 <br/>
 
-Please watch this great short video on using drones to create 2D and 3D maps. This is what you will learn in this class. 
+Please watch this great short video on using drones to create 2D and 3D maps. This is what you will learn to do in this class. 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Blr3suSQt-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
 
 ## Terminology
-Let's start with terminology. There are a lot of different ways to refer to a remote control aircraft. I use the term **drone** most often because this has become the defacto term in society. Most people understand what you mean when you say **drone**. 
+Let's get some terminology straight. There are a lot of different ways to refer to a remote control aircraft. I use the term **drone** most often because this has become the defacto term in society. Most people understand what you mean when you say **drone**. 
 <br/>
 
 There are a number of different acronyms used to refer to drones. Some differ depending on the industry, application, or context. But for the most part, the following acronyms are generally interchangeable. 
@@ -62,12 +62,36 @@ This term refers to a specific weight class of UAV aircraft as designated by the
 This is just another term for a drone that does not seem to get much use nowadays. 
 <br/>
 
+## Drone Models
+There are many companies globally making many different drone models. There is an enormous range of capabilities and price points. The options can be overwhelming to people new to this topic. To simplify things, I will list here some of the most popular companies making and selling drones today. 
+<br/>
+<br/>
+[DJI](https://www.dji.com/){target=_blank}
+<br/>
+DJI, a China-based company, is the world leader in the production of consumer and professional drones for photographic mapping. They make the best equipment at the lowest prices. In 2013, DJI released the Phantom 1 multi-rotor drone which was one of the first consumer drones completely assembled and ready to fly. 
+<br/>
+<br/>
+[Autel Robotics](https://www.autelrobotics.com/){target=_blank}
+<br/>
+<br/>
+[Skydio](https://www.skydio.com/){target=_blank}
+<br/>
+<br/>
+[Wingtra](https://wingtra.com/){target=_blank}
+<br/>
+<br/>
+
+![](images/drone_examples_1.png)
+![](images/drone_examples_2.png)
+<br/>
+
+
 ## Drone Types
 There are three basic drone types. Each has advantages and disadvantages that should be considered before buying or acquiring. The following section lists some of the characteristics of each type. 
 <br/>
+<br/>
 ![](images/multi_rotor.png){:height=200 width=300}
 <br/>
-
 
 + Usually Less Expensive to Buy
 
@@ -117,36 +141,14 @@ This video shows a Bat4 fixed-wing drone taking off from a runway in 2012. Thank
 
 * All the advantages of the fixed-wing with the ability of vertical take-off and landing. 
 
-
-
-
-## Drone Models
-There are many companies globally making many different drone models. There is an enormous range of capabilities and price points. The options can be overwhelming to people new to this topic. To simplify things, I will list here some of the most popular companies making and selling drones today. 
 <br/>
-<br/>
-[DJI](https://www.dji.com/){target=_blank}
-<br/>
-DJI, a China-based company, is the world leader in the production of consumer and professional drones for photographic mapping. They make the best equipment at the lowest prices. In 2013, DJI released the Phantom 1 multi-rotor drone which was one of the first consumer drones completely assembled and ready to fly. 
-<br/>
-<br/>
-[Autel Robotics](https://www.autelrobotics.com/){target=_blank}
-<br/>
-<br/>
-[Skydio](https://www.skydio.com/){target=_blank}
-<br/>
-<br/>
-[Wingtra](https://wingtra.com/){target=_blank}
-<br/>
-<br/>
-
-![](images/drone_examples_1.png)
-![](images/drone_examples_2.png)
-
-<br/>
-
-             
+          
 
 ## Unmanned Aircraft System
+
+The 'system' refers to the all of the additional components on and around the aircraft. At the center of system is you the operator. You will have a remote control and somekind of screen (e.g., Ipad) to communicate with the aircraft. The aircraft will have a camara or sensor, an SD card to record the images, flight batteries, a global navigation satellite sensor (GNSS) and intertial measurement unit (IMU). The GNSS is receiving signals from satellites orbiting the Earth to help the drone navigate autonomously. Additionally, the drone and the remote control may be connected (via radio) to a base station to improve the positioning of the aircraft. The remote controll may also be connnected to cellular towers in order to get a basemap in your mapping application.  
+<br/>
+This may seem a bit complex at first, but don't worry, we'll explain every component throughout this course. 
 
 ![](images/unnammed_aircraft_system.png)
 
