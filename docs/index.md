@@ -12,7 +12,7 @@ I am a researcher at the University of Arizona and have been involved with aeria
 ![](images/jornada_drone.png){:height=300 width=300}
 
 ## About the Course
-Welcome! This is an introductory course on how to use small drones for aerial mapping of land and resources.
+Welcome! This is an introductory course on how to use small camera drones for aerial mapping of land and resources.
 <br/>
 
 * You will learn all the skills necessary to create precisely surveyed maps using photogrammetry methods. 
@@ -23,7 +23,7 @@ Welcome! This is an introductory course on how to use small drones for aerial ma
 <br/>
 <br/>
 
-Please watch this great short video on using drones to create 2D and 3D maps. This is what you will learn to do in this class. 
+Please watch this great short video on using drones to create 2D and 3D photographic maps. This is what you will learn to do in this class. 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Blr3suSQt-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
 
 ## Terminology
@@ -62,7 +62,7 @@ This term refers to a specific weight class of UAV aircraft as designated by the
 This is just another term for a drone that does not seem to get much use nowadays. 
 <br/>
 
-## Drone Models
+## Camera Drone Models
 There are many companies globally making many different drone models. There is an enormous range of capabilities and price points. The options can be overwhelming to people new to this topic. To simplify things, I will list here some of the most popular companies making and selling drones today. 
 <br/>
 <br/>
@@ -86,7 +86,7 @@ DJI, a China-based company, is the world leader in the production of consumer an
 <br/>
 
 
-## Drone Types
+## Camera Drone Types
 There are three basic drone types. Each has advantages and disadvantages that should be considered before buying or acquiring. The following section lists some of the characteristics of each type. 
 <br/>
 <br/>
@@ -152,7 +152,7 @@ The 'system' refers to the all of the additional components on and around the ai
 
 * At the center of system is you the operator. 
 
-* You will have a remote control and somekind of screen (e.g., Ipad) to communicate with the aircraft. 
+* You will have a remote control and some kind of screen (e.g., Ipad) to communicate with the aircraft. 
 
 * The aircraft will have a camara or sensor, an SD card to record the images, flight batteries, a global navigation satellite sensor (GNSS) and intertial measurement unit (IMU). 
 
@@ -166,12 +166,12 @@ The 'system' refers to the all of the additional components on and around the ai
 This may seem a bit complex at first, but don't worry, we'll explain every component throughout this course. 
 
 ## Drone Sensors
-![](images/sensors.png){:height=500 width=500}
-<br/>
 The focus of this class is making photographic maps from drones, so the camera or sensor is at the center of everything we do. **Drones are flying cameras!**
 <br/>
 <br/>
 Many types of cameras are mountable on drones. The most common is a red, green, blue (RGB) camera, which is the regular color camera that we all have used. Drones often come with an RGB camera integrated directly into the aircraft. That makes them very easy to use. Some more fancy drones allow you to swap out different camera types.
+
+
 <br/><br/>
 Multi-spectral cameras are very popular for drone mapping. Multi-spectral means that they collect specific wavelenghts of light including visible and near-infrared. One of the main applications for multi-spectral mapping is observing the health of vegetation in an agricultural or natural resource context. 
 <br/><br/>
