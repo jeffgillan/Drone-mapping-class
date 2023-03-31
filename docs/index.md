@@ -170,15 +170,24 @@ The focus of this class is making photographic maps from drones, so the camera o
 <br/>
 <br/>
 Many types of cameras are mountable on drones. The most common is a red, green, blue (RGB) camera, which is the regular color camera that we all have used. Drones often come with an RGB camera integrated directly into the aircraft. That makes them very easy to use. Some more fancy drones allow you to swap out different camera types.
-
+![](images/mavic_cam.png){:height=300 width=300}
+![](images/phantom_cam.png){:height=300 width=300}
 
 <br/><br/>
 Multi-spectral cameras are very popular for drone mapping. Multi-spectral means that they collect specific wavelenghts of light including visible and near-infrared. One of the main applications for multi-spectral mapping is observing the health of vegetation in an agricultural or natural resource context. 
 <br/><br/>
+![](images/micasense.png){:height=300 width=300}
+
+
 Here are a few companies that make multi-spectral drone cameras
 <br/>
 [AgEagle](https://ageagle.com/){target=_blank}
 [Sentera](https://sentera.com/){target=_blank}
+
+![](images/thermal_cam.png){:height=300 width=300}
+
+![](images/lidar.png){:height=300 width=300}
+
 
 
 Companies like [Headwall](https://www.headwallphotonics.com/products/hyperspectral-sensors){target=_blank} are manufacturing hyperspectral sensors that can be mounted on drones. 
