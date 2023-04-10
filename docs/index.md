@@ -19,7 +19,7 @@ Welcome! This is an introductory course on how to use small camera drones for ae
 
 * We will cover all of the industries and applications where drone imagery maps are making big impacts on society. 
 
-* Additionally, students will learn how to become licensed drones pilots with the Federal Aviation Administration (FAA). 
+* Students will learn how to become licensed drones pilots with the Federal Aviation Administration (FAA). 
 <br/>
 <br/>
 
