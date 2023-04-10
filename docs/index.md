@@ -80,7 +80,10 @@ DJI, a China-based company, is the world leader in the production of consumer an
 [Wingtra](https://wingtra.com/){target=_blank}
 <br/>
 <br/>
+<br/>
+<br/>
 
+The following are some popular drone models worth checking out. The DJI Phantom 1 (circa 2013) was one of the first multi-rotor drones to be sold ready to fly out of the box. Users would mount a GoPro camera on it. This was followed up with the Phantom 2 Vision + (2014) which was one of the first drones to have an integrated camera. These early models kick-started the consumer drone industry. 
 ![](images/drone_examples_1.png)
 ![](images/drone_examples_2.png)
 <br/>
@@ -195,12 +198,11 @@ Here are a few companies that make multi-spectral drone cameras
 ### LiDAR (Light detection and ranging)
 ![](images/lidar.png){:height=300 width=300}
 
-
-
-Companies like [Headwall](https://www.headwallphotonics.com/products/hyperspectral-sensors){target=_blank} are manufacturing hyperspectral sensors that can be mounted on drones. 
 <br/>
 
 ### Hyperspectral 
+Companies like [Headwall](https://www.headwallphotonics.com/products/hyperspectral-sensors){target=_blank} are manufacturing hyperspectral sensors that can be mounted on drones. 
+
 ![](images/hyperspec.png){:height=350 width=350}
 
 ### Camera Mounting
