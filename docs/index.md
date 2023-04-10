@@ -166,15 +166,18 @@ The 'system' refers to the all of the additional components on and around the ai
 This may seem a bit complex at first, but don't worry, we'll explain every component throughout this course. 
 
 ## Drone Sensors
-The focus of this class is making photographic maps from drones, so the camera or sensor is at the center of everything we do. **Drones are flying cameras!**
+The focus of this class is making photographic maps from drones, so the camera or sensor is at the center of everything we do. **Drones are flying cameras!** Many types of cameras are mountable on drones. We will cover the most common. 
 <br/>
 <br/>
-Many types of cameras are mountable on drones. The most common is a red, green, blue (RGB) camera, which is the regular color camera that we all have used. Drones often come with an RGB camera integrated directly into the aircraft. That makes them very easy to use. Some more fancy drones allow you to swap out different camera types.
+
+### RGB
+The most common is a red, green, blue (RGB) camera, which is the regular color camera that we all have used. Drones often come with an RGB camera integrated directly into the aircraft. That makes them very easy to use. Some more fancy drones allow you to swap out different camera types.
 <br/><br/>
 ![](images/mavic_cam.png){:height=200 width=200}
 ![](images/phantom_cam.png){:height=300 width=300}
 
 <br/><br/>
+### Multi-Spectral
 Multi-spectral cameras are very popular for drone mapping. Multi-spectral means that they collect specific wavelenghts of light including visible and near-infrared. One of the main applications for multi-spectral mapping is observing the health of vegetation in an agricultural or natural resource context. 
 <br/><br/>
 ![](images/micasense.png){:height=300 width=300}
@@ -183,16 +186,21 @@ Multi-spectral cameras are very popular for drone mapping. Multi-spectral means 
 Here are a few companies that make multi-spectral drone cameras
 <br/>
 [AgEagle](https://ageagle.com/){target=_blank}
+<br/>
 [Sentera](https://sentera.com/){target=_blank}
 
+### Thermal
 ![](images/thermal_cam.png){:height=300 width=300}
 
+### LiDAR (Light detection and ranging)
 ![](images/lidar.png){:height=300 width=300}
 
 
 
 Companies like [Headwall](https://www.headwallphotonics.com/products/hyperspectral-sensors){target=_blank} are manufacturing hyperspectral sensors that can be mounted on drones. 
 <br/>
+
+### Hyperspectral 
 ![](images/hyperspec.png){:height=350 width=350}
 
 ### Camera Mounting
