@@ -93,9 +93,8 @@ There are many companies globally making many different drone models. There is a
     <br/>
     [AgEagle](https://ageagle.com/solutions/drones/)
     
-    
 <br/>
-<br/>
+
 ??? Tip "Consumer Drone History"
     
     The [Parrot AR Drone](https://en.wikipedia.org/wiki/Parrot_AR.Drone){target=_blank} (circa 2010)was considered the first ready-to-fly consumer           multirotor drone. The [DJI Phantom 1](https://en.wikipedia.org/wiki/Phantom_(unmanned_aerial_vehicle_series)){target=_blank} made it's debut in 2013.     This was followed up with the Phantom 2 Vision + (2014) which was one of the first drones to have an integrated camera. These early models kick-         started the consumer drone industry.  
@@ -106,9 +105,10 @@ There are many companies globally making many different drone models. There is a
 
 
 ## Camera Drone Types
-There are three basic drone types. Each has advantages and disadvantages that should be considered before buying or acquiring. The following section lists some of the characteristics of each type. 
+There are three basic drone types: **Multi-rotors**, **Fixed-Wing**, and **VTOL Fixed-Wing**. Each has advantages and disadvantages that should be considered before buying or acquiring. The following section lists some of the characteristics of each type. 
 <br/>
 <br/>
+
 ![](images/multi_rotor.png){:height=200 width=300}
 <br/>
 
@@ -162,6 +162,8 @@ This video shows a Bat4 fixed-wing drone taking off from a runway in 2012. Thank
 
 <br/>
           
+_____________________
+___
 
 ## Unmanned Aircraft System
 
