@@ -19,13 +19,7 @@ Welcome! This is an introductory course on how to use small camera drones for ae
 
     I am a researcher at the University of Arizona and have been involved with aerial mapping and drones since 2011. Ever since, I have been using small drones to map and survey rangelands, forests, river corridors, wetlands, agriculture fields, and golf courses. I love helping others learn to use these powerful tools.
     <br/>
-    ![](images/gillan_srer_bees.png){:height=190 width=190}
-
-#### Instructor: 
-
- 
-<br/>
- 
+    ![](images/gillan_srer_bees.png){:height=190 width=190} 
 <br/>
 
 
