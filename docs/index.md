@@ -70,29 +70,36 @@ This is just another term for a drone that does not seem to get much use nowaday
 <br/>
 
 ## Camera Drone Models
-There are many companies globally making many different drone models. There is an enormous range of capabilities and price points. The options can be overwhelming to people new to this topic. To simplify things, I will list here some of the most popular companies making and selling drones today. 
-<br/>
-<br/>
-[DJI](https://www.dji.com/){target=_blank}
-<br/>
-DJI, a China-based company, is the world leader in the production of consumer and professional drones for photographic mapping. They make the best equipment at the lowest prices. In 2013, DJI released the Phantom 1 multi-rotor drone which was one of the first consumer drones completely assembled and ready to fly. 
-<br/>
-<br/>
-[Autel Robotics](https://www.autelrobotics.com/){target=_blank}
-<br/>
-<br/>
-[Skydio](https://www.skydio.com/){target=_blank}
-<br/>
-<br/>
-[Wingtra](https://wingtra.com/){target=_blank}
-<br/>
+![](images/drone_examples_1.png)
+![](images/drone_examples_2.png)
 <br/>
 <br/>
 <br/>
 
+There are many companies globally making many different drone models. There is an enormous range of capabilities and price points. 
+<br/>
+<br/>
+
+??? Tip "Select Drone Manufacturers"
+
+    [DJI](https://www.dji.com/){target=_blank}
+    <br/>
+    DJI, a China-based company, is the world leader in the production of consumer and professional drones for photographic mapping. They make the best       equipment at the lowest prices. In 2013, DJI released the Phantom 1 multi-rotor drone which was one of the first consumer drones completely assembled     and ready to fly. 
+    <br/>
+    <br/>
+    [Autel Robotics](https://www.autelrobotics.com/){target=_blank}
+    <br/>
+    [Skydio](https://www.skydio.com/){target=_blank}
+    <br/>
+    [Wingtra](https://wingtra.com/){target=_blank}
+    <br/>
+    [AgEagle](https://ageagle.com/solutions/drones/)
+    
+    
+<br/>
+<br/>
 The following are some popular drone models worth checking out. The DJI Phantom 1 (circa 2013) was one of the first multi-rotor drones to be sold ready to fly out of the box. Users would mount a GoPro camera on it. This was followed up with the Phantom 2 Vision + (2014) which was one of the first drones to have an integrated camera. These early models kick-started the consumer drone industry. 
-![](images/drone_examples_1.png)
-![](images/drone_examples_2.png)
+
 <br/>
 
 
