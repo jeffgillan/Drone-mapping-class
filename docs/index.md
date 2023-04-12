@@ -70,13 +70,11 @@ This is just another term for a drone that does not seem to get much use nowaday
 <br/>
 
 ## Camera Drone Models
+There are many companies globally making many different drone models. There is an enormous range of capabilities and price points. The following are some popular drone models worth checking out. 
+
 ![](images/drone_examples_1.png)
 ![](images/drone_examples_2.png)
 <br/>
-<br/>
-<br/>
-
-There are many companies globally making many different drone models. There is an enormous range of capabilities and price points. 
 <br/>
 <br/>
 
@@ -98,8 +96,12 @@ There are many companies globally making many different drone models. There is a
     
 <br/>
 <br/>
-The following are some popular drone models worth checking out. The DJI Phantom 1 (circa 2013) was one of the first multi-rotor drones to be sold ready to fly out of the box. Users would mount a GoPro camera on it. This was followed up with the Phantom 2 Vision + (2014) which was one of the first drones to have an integrated camera. These early models kick-started the consumer drone industry. 
-
+??? Tip "Consumer Drone History"
+    
+    The [Parrot AR Drone](https://en.wikipedia.org/wiki/Parrot_AR.Drone){target=_blank} (circa 2010)was considered the first ready-to-fly consumer           multirotor drone. The [DJI Phantom 1](https://en.wikipedia.org/wiki/Phantom_(unmanned_aerial_vehicle_series)){target=_blank} made it's debut in 2013.     This was followed up with the Phantom 2 Vision + (2014) which was one of the first drones to have an integrated camera. These early models kick-         started the consumer drone industry.  
+    
+  
+    
 <br/>
 
 
