@@ -2,13 +2,9 @@
 
 # :material-cloud-braces: Resource Mapping with Drones
 
-<figure markdown>
-  ![Image title](images/drone_tree_operator.png){ width="300" }
-  <figcaption> </figcaption>
-</figure>
 
 <figure markdown>
-  ![Image title](images/drone_over_SRER.png){ width="400" }
+  ![Image title](images/drone_over_SRER.png){ width="450" }
   <figcaption> </figcaption>
 </figure>
 
@@ -30,7 +26,7 @@ Welcome! This is an introductory course on how to use small camera drones for ae
 
     I am a researcher at the University of Arizona and have been involved with aerial mapping and drones since 2011. Ever since, I have been using small drones to map and survey rangelands, forests, river corridors, wetlands, agriculture fields, and golf courses. I love helping others learn to use these powerful tools.
     <br/>
-    ![](images/gillan_srer_bees.png){:height=190 width=190} 
+    ![](images/gillan_srer_bees.png){:height=190 width=190 align=left} 
 <br/>
 
 
@@ -187,8 +183,6 @@ The focus of this class is making photographic maps from drones, so the camera o
 ### RGB
 The most common is a red, green, blue (RGB) camera, which is the regular color camera that we all have used. Drones often come with an RGB camera integrated directly into the aircraft. That makes them very easy to use. Some more fancy drones allow you to swap out different camera types.
 <br/><br/>
-![rgb](images/mavic_cam.png "Caption Testing"){:height=200 width=200}
-
 
 <figure markdown>
   ![Image title](images/phantom_cam.png){ width="300" }
