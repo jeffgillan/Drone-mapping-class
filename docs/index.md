@@ -145,9 +145,8 @@ There are three basic drone types: **Multi-rotors**, **Fixed-Wing**, and **VTOL 
 * Less Control of Camera Angle (via gimbal)
 <br/>
 <br/>
-<br/>
 
-This video shows a Bat4 fixed-wing drone taking off from a runway in 2012. Thankfully, most fixed-wing drones are now smaller and can launched by a single person.
+This video shows a Bat4 fixed-wing drone taking off from a runway in 2012. Thankfully, most fixed-wing drones are now smaller and can be launched by a single person.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/82gn8EFOQd0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <br/>
@@ -182,7 +181,6 @@ The 'system' refers to the all of the additional components on and around the ai
 * Additionally, the drone and the remote control may be connected (via radio) to a base station to improve the positioning of the aircraft.
 
 * The remote control may also be connnected to cellular towers in order to get a basemap in your mapping application.  
-<br/>
 
 This may seem a bit complex at first, but don't worry, we'll explain every component throughout this course. 
 
