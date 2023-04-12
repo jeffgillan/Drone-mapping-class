@@ -28,11 +28,11 @@ Welcome! This is an introductory course on how to use small camera drones for ae
     <br/>
     ![](images/gillan_srer_bees.png){:height=190 width=190 align=left} 
 <br/>
-
+___
 ## Overview
 Let us commence our course by delving into this engaging brief video, which explores the utilization of drones for generating 2D and 3D photographic maps. Throughout this class, you will acquire the skills to execute this technique proficiently. The video provides an essential overview of photographic mapping through drone technology, while also shedding light on the myriad industries harnessing its potential. 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Blr3suSQt-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
-
+___
 ## Terminology
 Let's get some terminology straight. There are a lot of different ways to refer to a remote control aircraft. I use the term **drone** most often because this has become the defacto term in society. Most people understand what you mean when you say **drone**. 
 <br/>
@@ -68,7 +68,7 @@ This term refers to a specific weight class of UAV aircraft as designated by the
 <br/>
 This is just another term for a drone that does not seem to get much use nowadays. 
 <br/>
-
+___
 ## Camera Drone Models
 There are many companies globally making many different drone models. There is an enormous range of capabilities and price points. The following are some popular drone models worth checking out. 
 
@@ -102,7 +102,7 @@ There are many companies globally making many different drone models. There is a
   
     
 <br/>
-
+___
 
 ## Camera Drone Types
 There are three basic drone types: **Multi-rotors**, **Fixed-Wing**, and **VTOL Fixed-Wing**. Each has advantages and disadvantages that should be considered before buying or acquiring. The following section lists some of the characteristics of each type. 
@@ -160,8 +160,6 @@ This video shows a Bat4 fixed-wing drone taking off from a runway in 2012. Thank
 * All the advantages of the fixed-wing with the ability of vertical take-off and landing. 
 
 <br/>
-          
-_____________________
 ___
 
 ## Unmanned Aircraft System
@@ -183,7 +181,8 @@ The 'system' refers to the all of the additional components on and around the ai
 * The remote control may also be connnected to cellular towers in order to get a basemap in your mapping application.  
 
 This may seem a bit complex at first, but don't worry, we'll explain every component throughout this course. 
-
+<br/><br/>
+___
 ## Drone Sensors
 The focus of this class is making photographic maps from drones, so the camera or sensor is at the center of everything we do. **Drones are flying cameras!** Many types of cameras are mountable on drones. We will cover the most common. 
 <br/>
@@ -198,8 +197,7 @@ The most common is a red, green, blue (RGB) camera, which is the regular color c
   <figcaption>Integrated RGB Camera on Phantom</figcaption>
 </figure>
 
-
-<br/><br/>
+<br/>
 ### Multi-Spectral
 Multi-spectral cameras are very popular for drone mapping. Multi-spectral means that they collect specific wavelenghts of light including visible and near-infrared. One of the main applications for multi-spectral mapping is observing the health of vegetation in an agricultural or natural resource context. 
 <br/><br/>
@@ -209,27 +207,36 @@ Multi-spectral cameras are very popular for drone mapping. Multi-spectral means 
   <figcaption>Micasense Altum Multi-Spectral</figcaption>
 </figure>
 
+??? Tip "Multispectral Sensor Manufacturers"
+
+    [AgEagle](https://ageagle.com/){target=_blank}
+    <br/>
+    [Sentera](https://sentera.com/){target=_blank}
 
 
-Here are a few companies that make multi-spectral drone cameras
 <br/>
-[AgEagle](https://ageagle.com/){target=_blank}
-<br/>
-[Sentera](https://sentera.com/){target=_blank}
 
 ### Thermal
-![](images/thermal_cam.png){:height=300 width=300}
+<figure markdown>
+  ![Image title](images/thermal_cam.png){ width="300" }
+  <figcaption>Flir Thermal Sensor</figcaption>
+</figure>
+
+
 
 ### LiDAR (Light detection and ranging)
-![](images/lidar.png){:height=300 width=300}
-
+<figure markdown>
+  ![Image title](images/lidar.png){ width="300" }
+  <figcaption>Velodyne LiDAR Sensor</figcaption>
+</figure>
 <br/>
 
 ### Hyperspectral 
 Companies like [Headwall](https://www.headwallphotonics.com/products/hyperspectral-sensors){target=_blank} are manufacturing hyperspectral sensors that can be mounted on drones. 
 
 ![](images/hyperspec.png){:height=350 width=350}
-
+<br/>
+___
 ### Camera Mounting
 Many integrated drone cameras will come mounted on a gimbal. A gimbal is a device used to stabilize and control the movement of a camera. It typically consists of motorized axes that work together to keep the camera level and steady. Most gimbals have a range of tilt that can be controlled from the remote control. 
 <br/>
@@ -241,11 +248,13 @@ Many integrated drone cameras will come mounted on a gimbal. A gimbal is a devic
 Shock mounting is mounting the camera in a way that reduces the impact of vibrations or movement on the camera. It is not motorized nor can the user change the camera angle remotely.  
 ![](images/static_mount.png){:height=500 width=500}
 
-
+<br/>
+___
 ## Other Onboard Tech
 ![](images/gps.png)
 ![](images/imu.png){:height=300 width=300}
-
+<br/>
+___
 ## Advantages of Drones
 <br/>
 
