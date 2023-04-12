@@ -238,16 +238,23 @@ Companies like [Headwall](https://www.headwallphotonics.com/products/hyperspectr
 <br/>
 ___
 ### Camera Mounting
+
+#### Gimbal
 Many integrated drone cameras will come mounted on a gimbal. A gimbal is a device used to stabilize and control the movement of a camera. It typically consists of motorized axes that work together to keep the camera level and steady. Most gimbals have a range of tilt that can be controlled from the remote control. 
 <br/>
 <br/>
-![](images/drone_gimbal.gif){:height=300 width=300}
+<figure markdown>
+  ![Image title](images/drone_gimbal.gif){ width="300" }
+  <figcaption>Remote Controlled Camera Gimbal</figcaption>
+</figure>
 <br/>
 <br/>
-
+#### Shock Mount
 Shock mounting is mounting the camera in a way that reduces the impact of vibrations or movement on the camera. It is not motorized nor can the user change the camera angle remotely.  
-![](images/static_mount.png){:height=500 width=500}
-
+<figure markdown>
+  ![Image title](images/static_mount.png){ width="400" }
+  <figcaption>Remote Controlled Camera Gimbal</figcaption>
+</figure>
 <br/>
 ___
 ## Other Onboard Tech
