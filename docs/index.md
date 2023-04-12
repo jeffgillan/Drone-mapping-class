@@ -7,6 +7,12 @@
   <figcaption> </figcaption>
 </figure>
 
+<figure markdown>
+  ![Image title](images/drone_over_srer.png){ width="400" }
+  <figcaption> </figcaption>
+</figure>
+
+
 ## About the Course
 Welcome! This is an introductory course on how to use small camera drones for aerial mapping of land and resources.
 <br/>
