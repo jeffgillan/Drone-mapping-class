@@ -234,7 +234,7 @@ Multi-spectral cameras are very popular for drone mapping. Multi-spectral means 
 ### Hyperspectral 
 Companies like [Headwall](https://www.headwallphotonics.com/products/hyperspectral-sensors){target=_blank} are manufacturing hyperspectral sensors that can be mounted on drones. 
 <figure markdown>
-  ![Image title](images/hypspec.png){ width="350" }
+  ![Image title](images/hyperspec.png){ width="350" }
   <figcaption>Hyperspectral Sensor</figcaption>
 </figure>
 <br/>
