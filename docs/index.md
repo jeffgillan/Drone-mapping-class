@@ -177,21 +177,22 @@ The focus of this class is making photographic maps from drones, so the camera o
 The most common is a red, green, blue (RGB) camera, which is the regular color camera that we all have used. Drones often come with an RGB camera integrated directly into the aircraft. That makes them very easy to use. Some more fancy drones allow you to swap out different camera types.
 <br/><br/>
 ![rgb](images/mavic_cam.png "Caption Testing"){:height=200 width=200}
-![](images/phantom_cam.png){:height=300 width=300}
 
+
+<figure markdown>
+  ![Image title](images/phantom_cam.png){ width="300" }
+  <figcaption>Integrated RGB Camera on Phantom</figcaption>
+</figure>
 
 
 <br/><br/>
 ### Multi-Spectral
 Multi-spectral cameras are very popular for drone mapping. Multi-spectral means that they collect specific wavelenghts of light including visible and near-infrared. One of the main applications for multi-spectral mapping is observing the health of vegetation in an agricultural or natural resource context. 
 <br/><br/>
-![](images/micasense.png){:height=300 width=300 align=right}
-
-
 
 <figure markdown>
   ![Image title](images/micasense.png){ width="300" }
-  <figcaption>Image caption</figcaption>
+  <figcaption>Micasense Altum Multi-Spectral</figcaption>
 </figure>
 
 
