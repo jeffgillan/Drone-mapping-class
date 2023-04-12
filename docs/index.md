@@ -233,8 +233,10 @@ Multi-spectral cameras are very popular for drone mapping. Multi-spectral means 
 
 ### Hyperspectral 
 Companies like [Headwall](https://www.headwallphotonics.com/products/hyperspectral-sensors){target=_blank} are manufacturing hyperspectral sensors that can be mounted on drones. 
-
-![](images/hyperspec.png){:height=350 width=350}
+<figure markdown>
+  ![Image title](images/hypspec.png){ width="350" }
+  <figcaption>Hyperspectral Sensor</figcaption>
+</figure>
 <br/>
 ___
 ### Camera Mounting
@@ -253,7 +255,7 @@ Many integrated drone cameras will come mounted on a gimbal. A gimbal is a devic
 Shock mounting is mounting the camera in a way that reduces the impact of vibrations or movement on the camera. It is not motorized nor can the user change the camera angle remotely.  
 <figure markdown>
   ![Image title](images/static_mount.png){ width="400" }
-  <figcaption>Remote Controlled Camera Gimbal</figcaption>
+  <figcaption>Shock Mount</figcaption>
 </figure>
 <br/>
 ___
