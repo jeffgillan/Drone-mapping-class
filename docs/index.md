@@ -27,9 +27,6 @@ Welcome! This is an introductory course on how to use small camera drones for ae
  
 <br/>
 
-![](images/jornada_drone.png){:height=300 width=300}
-
-
 
 Please watch this great short video on using drones to create 2D and 3D photographic maps. This is what you will learn to do in this class. 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Blr3suSQt-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
