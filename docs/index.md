@@ -8,7 +8,7 @@
 </figure>
 
 <figure markdown>
-  ![Image title](images/drone_over_srer.png){ width="400" }
+  ![Image title](images/drone_over_SRER.png){ width="400" }
   <figcaption> </figcaption>
 </figure>
 
