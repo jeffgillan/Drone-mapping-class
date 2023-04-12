@@ -29,8 +29,8 @@ Welcome! This is an introductory course on how to use small camera drones for ae
     ![](images/gillan_srer_bees.png){:height=190 width=190 align=left} 
 <br/>
 
-
-Please watch this great short video on using drones to create 2D and 3D photographic maps. This is what you will learn to do in this class. 
+## Overview
+Let us commence our course by delving into this engaging brief video, which explores the utilization of drones for generating 2D and 3D photographic maps. Throughout this class, you will acquire the skills to execute this technique proficiently. The video provides an essential overview of photographic mapping through drone technology, while also shedding light on the myriad industries harnessing its potential. 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Blr3suSQt-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
 
 ## Terminology
