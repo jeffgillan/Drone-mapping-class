@@ -179,6 +179,12 @@ The most common is a red, green, blue (RGB) camera, which is the regular color c
 ![rgb](images/mavic_cam.png "Caption Testing"){:height=200 width=200}
 ![](images/phantom_cam.png){:height=300 width=300}
 
+<figure markdown>
+    ![Image title](images/phantom_cam.png){ width="512" }
+    <figcaption>Image caption</figcaption>
+</figure>
+
+
 <br/><br/>
 ### Multi-Spectral
 Multi-spectral cameras are very popular for drone mapping. Multi-spectral means that they collect specific wavelenghts of light including visible and near-infrared. One of the main applications for multi-spectral mapping is observing the health of vegetation in an agricultural or natural resource context. 
