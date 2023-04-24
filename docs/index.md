@@ -229,6 +229,9 @@ Multi-spectral cameras are very popular for drone mapping. Multi-spectral means 
   ![Image title](images/lidar.png){ width="300" }
   <figcaption>Velodyne LiDAR Sensor</figcaption>
 </figure>
+
+[LiDAR](https://en.wikipedia.org/wiki/Lidar){target=_blank}
+
 <br/>
 
 ### Hyperspectral 
