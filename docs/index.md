@@ -225,12 +225,17 @@ Multi-spectral cameras are very popular for drone mapping. Multi-spectral means 
 
 
 ### LiDAR (Light detection and ranging)
+[LiDAR](https://en.wikipedia.org/wiki/Lidar){target=_blank}
+
 <figure markdown>
-  ![Image title](images/lidar.png){ width="300" }
+  ![Image title](images/lidar_pucl.png){ width="300" }
   <figcaption>Velodyne LiDAR Sensor</figcaption>
 </figure>
 
-[LiDAR](https://en.wikipedia.org/wiki/Lidar){target=_blank}
+<figure markdown>
+  ![Image title](images/lidar_pointcloud.png){ width="300" }
+  <figcaption>LiDAR Point Cloud</figcaption>
+</figure>
 
 <br/>
 
@@ -241,6 +246,11 @@ Companies like [Headwall](https://www.headwallphotonics.com/products/hyperspectr
   <figcaption>Hyperspectral Sensor</figcaption>
 </figure>
 <br/>
+<figure markdown>
+  ![Image title](images/hyperspec_signal.png){ width="350" }
+  <figcaption>Hyperspectral spectral signature</figcaption>
+</figure>
+
 ___
 ### Camera Mounting
 
