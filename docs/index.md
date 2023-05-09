@@ -76,11 +76,15 @@ ___
 
 Land and resources on the land (e.g., trees) can be observed and measured at various scales, from in-situ field measurements all the way to continental scale satellite imagery. 
 <br/>
+<br/>
+![](images/scale1.png){:height=600 width=400}
+
 Each of the scales has a unique spatial resolution (pixel size) and geographic extent. Field measurements can provide very detailed information on the land and resources, but usually across a small geographic extent. Conversely, satellite imagery can cover the globe but with coarser grain observations. 
+<br/>
 <br/>
 **Drone imagery** provides a unqiue scale that fits somewhere between field and airplane imagery. 
 
-![](images/scale1.png){:height=600 width=400}
+
 
 * Drone imagery is relatively easy and cheap to collect compared with airplane imagery
 
