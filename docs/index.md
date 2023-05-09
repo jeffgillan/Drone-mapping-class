@@ -30,7 +30,9 @@ Welcome! This is an introductory course on how to use small camera drones for ae
 <br/>
 ___
 ## Overview
-Let us commence our course by delving into this engaging brief video, which explores the utilization of drones for generating 2D and 3D photographic maps. Throughout this class, you will acquire the skills to execute this technique proficiently. The video provides an essential overview of photographic mapping through drone technology, while also shedding light on the myriad industries harnessing its potential. 
+Let's begin the coarse with this engaging brief video, which explores the use of drones for generating 2D and 3D photographic maps. Throughout this class, you will acquire the skills to execute these technique proficiently. The video provides an essential overview of photographic mapping through drone technology, while also shedding light on the myriad industries harnessing its potential. 
+<br/>
+<br/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Blr3suSQt-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>   
 ___
 ## Terminology
@@ -70,10 +72,13 @@ This is just another term for a drone that does not seem to get much use nowaday
 <br/>
 ___
 
-## Advantages of Drones
-<br/>
+## Advantages of the Drone Perspective
 
-* Provides a crucial observational scale somewhere between field measurements and airplane imagery  
+Land and resources on the land (e.g., trees) can be observed and measured at various scales, from in-situ field measurements all the way to continental scale satellite imagery. Each of the scales has a unique spatial resolution (pixel size) and geographic extent. Field measurements can provide very detailed information on the land and resources, but usually across a small geographic extent. Conversely, satellite imagery can cover the globe but with coarser grain observations. 
+
+Drone imagery provides a unqiue scale that fits somewhere between field and airplane imagery. 
+
+![](images/scale1.png){:height=600 width=400}
 
 * Drone imagery is relatively easy and cheap to collect compared with airplane imagery
 
@@ -86,7 +91,7 @@ ___
 * Drone imagery is on-demand. As long as the weather is good, I can go out and collect imagery. 
 
 
-![](images/scale1.png){:height=600 width=400}
+
 
 ## Limitations of Drones
 <br/>
