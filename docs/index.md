@@ -74,9 +74,11 @@ ___
 
 ## Advantages of the Drone Perspective
 
-Land and resources on the land (e.g., trees) can be observed and measured at various scales, from in-situ field measurements all the way to continental scale satellite imagery. Each of the scales has a unique spatial resolution (pixel size) and geographic extent. Field measurements can provide very detailed information on the land and resources, but usually across a small geographic extent. Conversely, satellite imagery can cover the globe but with coarser grain observations. 
-
-Drone imagery provides a unqiue scale that fits somewhere between field and airplane imagery. 
+Land and resources on the land (e.g., trees) can be observed and measured at various scales, from in-situ field measurements all the way to continental scale satellite imagery. 
+<br/>
+Each of the scales has a unique spatial resolution (pixel size) and geographic extent. Field measurements can provide very detailed information on the land and resources, but usually across a small geographic extent. Conversely, satellite imagery can cover the globe but with coarser grain observations. 
+<br/>
+**Drone imagery** provides a unqiue scale that fits somewhere between field and airplane imagery. 
 
 ![](images/scale1.png){:height=600 width=400}
 
@@ -95,16 +97,16 @@ Drone imagery provides a unqiue scale that fits somewhere between field and airp
 
 ## Limitations of Drones
 <br/>
+* 
+* **Limited Geographic coverage**: A single small drone can cover hundreds and perhaps up to a few thousand acres. To cover larger areas, you need an airplane or a satellite. 
 
-* Limited Geographic coverage: A single small drone can cover hundreds and perhaps up to a few thousand acres. To cover larger areas, you need an airplane or a satellite. 
+* **Limited Flight Endurance (battery limitations)**: Most multi-rotor drones can stay aloft for only 25-30 minutes. 
 
-* Limited Flight Endurance (battery limitations). Most multi-rotor drones can stay aloft for only 25-30 minutes. 
+* **Legal limitations** including flying height above the ground, line-of-sight requirements, no operations over people. 
 
-* Legal limitations including flying height above the ground, line-of-sight requirements, no operations over people. 
+* **Requires expertise** to plan, collect, process, and analyze drone imagery maps
 
-* Requires expertise to plan, collect, process, and analyze drone imagery maps
-
-* Cost: Drone equipment, processing software, and digital storage can all be expensive
+* **Cost**: Drone equipment, processing software, and digital storage can all be expensive
 
 
 
