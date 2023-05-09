@@ -69,6 +69,40 @@ This term refers to a specific weight class of UAV aircraft as designated by the
 This is just another term for a drone that does not seem to get much use nowadays. 
 <br/>
 ___
+
+## Advantages of Drones
+<br/>
+
+* Provides a crucial observational scale somewhere between field measurements and airplane imagery  
+
+* Drone imagery is relatively easy and cheap to collect compared with airplane imagery
+
+* Drone imagery can cover much larger areas compared with field measurements
+
+* Drone imagery can observe and measure some vegetation and topographic characteristics better than field measurements. A great example is capturing the structure of a tree. This is very difficult to do with manual measurements. 
+
+* Drones are highly portable and can be carried almost anywhere
+
+* Drone imagery is on-demand. As long as the weather is good, I can go out and collect imagery. 
+
+
+![](images/scale1.png){:height=600 width=400}
+
+## Limitations of Drones
+<br/>
+
+* Limited Geographic coverage: A single small drone can cover hundreds and perhaps up to a few thousand acres. To cover larger areas, you need an airplane or a satellite. 
+
+* Limited Flight Endurance (battery limitations). Most multi-rotor drones can stay aloft for only 25-30 minutes. 
+
+* Legal limitations including flying height above the ground, line-of-sight requirements, no operations over people. 
+
+* Requires expertise to plan, collect, process, and analyze drone imagery maps
+
+* Cost: Drone equipment, processing software, and digital storage can all be expensive
+
+
+
 ## Camera Drone Models
 There are many companies globally making many different drone models. There is an enormous range of capabilities and price points. The following are some popular drone models worth checking out. 
 
@@ -279,33 +313,3 @@ ___
 ![](images/imu.png){:height=300 width=300}
 <br/>
 ___
-## Advantages of Drones
-<br/>
-
-* Provides a crucial observational scale somewhere between field measurements and airplane imagery  
-
-* Drone imagery is relatively easy and cheap to collect compared with airplane imagery
-
-* Drone imagery can cover much larger areas compared with field measurements
-
-* Drone imagery can observe and measure some vegetation and topographic characteristics better than field measurements. A great example is capturing the structure of a tree. This is very difficult to do with manual measurements. 
-
-* Drones are highly portable and can be carried almost anywhere
-
-* Drone imagery is on-demand. As long as the weather is good, I can go out and collect imagery. 
-
-
-![](images/scale1.png){:height=600 width=400}
-
-## Limitations of Drones
-<br/>
-
-* Limited Geographic coverage: A single small drone can cover hundreds and perhaps up to a few thousand acres. To cover larger areas, you need an airplane or a satellite. 
-
-* Limited Flight Endurance (battery limitations). Most multi-rotor drones can stay aloft for only 25-30 minutes. 
-
-* Legal limitations including flying height above the ground, line-of-sight requirements, no operations over people. 
-
-* Requires expertise to plan, collect, process, and analyze drone imagery maps
-
-* Cost: Drone equipment, processing software, and digital storage can all be expensive
