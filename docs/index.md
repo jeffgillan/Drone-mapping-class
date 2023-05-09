@@ -217,6 +217,8 @@ Multi-spectral cameras are very popular for drone mapping. Multi-spectral means 
 <br/>
 
 ### Thermal
+Drone-mounted [thermal infrared cameras](https://en.wikipedia.org/wiki/Thermography){target=_blank} are used to detect temperature or heat signatures across a landscape. This technology could be used to detect live animals or identify the temperature differences between different land features. For example, thermal imagery is very useful for decting surface water. 
+<br/><br/>
 <figure markdown>
   ![Image title](images/thermal_cam.png){ width="300" }
   <figcaption>Flir Thermal Sensor</figcaption>
