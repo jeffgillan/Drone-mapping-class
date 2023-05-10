@@ -102,7 +102,6 @@ Field measurements can provide very detailed information on the land and resourc
 
 
 ## Limitations of Drones
-<br/>
 
 * **Limited Geographic coverage**: A single small drone can cover hundreds and perhaps up to a few thousand acres. To cover larger areas, you need an airplane or a satellite. 
 
@@ -114,7 +113,8 @@ Field measurements can provide very detailed information on the land and resourc
 
 * **Cost**: Drone equipment, processing software, and digital storage can all be expensive
 
-
+___
+___
 
 ## Camera Drone Models
 There are many companies globally making many different drone models. There is an enormous range of capabilities and price points. The following are some popular drone models worth checking out. 
