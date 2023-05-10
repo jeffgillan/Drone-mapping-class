@@ -79,11 +79,13 @@ Land and resources on the land (e.g., trees) can be observed and measured at var
 <br/>
 ![](images/scale1.png){:height=600 width=400}
 
-Each of the scales has a unique spatial resolution (pixel size) and geographic extent. Field measurements can provide very detailed information on the land and resources, but usually across a small geographic extent. Conversely, satellite imagery can cover the globe but with coarser grain observations. 
+Each of the scales has a unique spatial resolution (pixel size) and geographic extent. 
+<br/>
+<br/>
+Field measurements can provide very detailed information on the land and resources, but usually across a small geographic extent. Conversely, satellite imagery can cover the globe but with coarser grain observations. 
 <br/>
 <br/>
 **Drone imagery** provides a unqiue scale that fits somewhere between field and airplane imagery. 
-
 
 
 * Drone imagery is relatively easy and cheap to collect compared with airplane imagery
@@ -101,7 +103,7 @@ Each of the scales has a unique spatial resolution (pixel size) and geographic e
 
 ## Limitations of Drones
 <br/>
-* 
+
 * **Limited Geographic coverage**: A single small drone can cover hundreds and perhaps up to a few thousand acres. To cover larger areas, you need an airplane or a satellite. 
 
 * **Limited Flight Endurance (battery limitations)**: Most multi-rotor drones can stay aloft for only 25-30 minutes. 
