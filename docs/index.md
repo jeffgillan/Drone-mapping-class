@@ -98,7 +98,7 @@ Field measurements can provide very detailed information on the land and resourc
 
 * Drone imagery is on-demand. As long as the weather is good, I can go out and collect imagery. 
 
-
+___
 
 
 ## Limitations of Drones
@@ -274,7 +274,7 @@ Drone-mounted [thermal infrared cameras](https://en.wikipedia.org/wiki/Thermogra
 
 
 ### LiDAR (Light detection and ranging)
-[LiDAR](https://en.wikipedia.org/wiki/Lidar){target=_blank}
+[LiDAR](https://en.wikipedia.org/wiki/Lidar){target=_blank} is a 3D mapping sensor that sends out pulses of light (usually in the near-infrared range) that reflect off the ground and return to the sensor. The return time is converted to distance and when done millions of times, can provide precise 3D maps of the landscape. 
 
 <figure markdown>
   ![Image title](images/lidar_pucl.png){ width="200" }
