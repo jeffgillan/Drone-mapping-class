@@ -3,7 +3,8 @@
 ### Plant Agriculture
 ### Rangeland Management
 ![](images/cows_srer.png){:height=300 width=300}
-![](images/srer_pointcloud.png){:height=200 width=300}
+<br/>
+![](images/srer_pointcloud.png){:height=400 width=400}
 
 ### Construction
 ### Civil Engineering
