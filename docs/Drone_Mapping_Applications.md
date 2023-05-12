@@ -33,7 +33,7 @@ ___
 ___
 ## Civil Engineering
 ## Forestry
-![](images/forest_images.png){:height=300 width=300}
+![](images/forest_images.png){:height=600 width=600}
 
 ## Mining
 ![](images/mining1.png){:height=300 width=300}
