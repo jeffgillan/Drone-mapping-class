@@ -324,8 +324,4 @@ Shock mounting is mounting the camera in a way that reduces the impact of vibrat
 </figure>
 <br/>
 ___
-## Other Onboard Tech
-![](images/gps.png)
-![](images/imu.png){:height=300 width=300}
-<br/>
-___
+
