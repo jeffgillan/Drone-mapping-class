@@ -20,9 +20,10 @@ Drone imagery mapping can provide many types of data useful for rangeland manage
 
 ??? Tip "Examples From the Literature"
 
-    I am a researcher at the University of Arizona and have been involved with aerial mapping and drones since 2011. Ever since, I have been using small drones to map and survey rangelands, forests, river corridors, wetlands, agriculture fields, and golf courses. I love helping others learn to use these powerful tools.
+    [Integrating drone imagery with existing rangeland monitoring programs](https://link.springer.com/article/10.1007/s10661-020-8216-3){target=_blank}
     <br/>
-    ![](images/gillan_srer_bees.png){:height=190 width=190 align=left} 
+    [Innovations to expand drone data collection and analysis for rangelands](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3649){target=_blank}
+    [A pilot study to estimate forage mass from unmanned aerial vehicles in a semi-arid rangeland](https://www.mdpi.com/2072-4292/12/15/2431){target=_blank}
 
 
 ___
