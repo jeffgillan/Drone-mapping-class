@@ -274,7 +274,7 @@ Drone-mounted [thermal infrared cameras](https://en.wikipedia.org/wiki/Thermogra
 
 
 ### LiDAR (Light detection and ranging)
-[LiDAR](https://en.wikipedia.org/wiki/Lidar){target=_blank} is a 3D mapping sensor that sends out pulses of light (usually in the near-infrared range) that reflect off the ground and return to the sensor. The return time is converted to distance and when done millions of times, can provide precise 3D maps of the landscape. 
+[LiDAR](https://en.wikipedia.org/wiki/Lidar){target=_blank} is a 3D mapping sensor that sends out pulses of light (usually in the near-infrared range) that reflect off the ground and return to the sensor. The return time is converted to distance and when done millions of times, can provide precise 3D maps of the landscape. The typical imagery products created from laser scanning are called point clouds.
 
 <figure markdown>
   ![Image title](images/lidar_pucl.png){ width="200" }
@@ -289,6 +289,9 @@ Drone-mounted [thermal infrared cameras](https://en.wikipedia.org/wiki/Thermogra
 <br/>
 
 ### Hyperspectral 
+[Hyperspectral](https://en.wikipedia.org/wiki/Hyperspectral_imaging) imagery expands the concept of multi-spectral imagery. While multi-spectral imagery typical has 5 or 6 bands sensitive to specific regions of the electromagnetic, hyperspectral sensors can have hundreds or thousands of bands. Rich reflectance data provided by hyperspectral sensors can provide insights into plant physiology, mineralogy, and soil types. 
+<br/>
+<br/>
 Companies like [Headwall](https://www.headwallphotonics.com/products/hyperspectral-sensors){target=_blank} are manufacturing hyperspectral sensors that can be mounted on drones. 
 <figure markdown>
   ![Image title](images/hyperspec.png){ width="350" }
