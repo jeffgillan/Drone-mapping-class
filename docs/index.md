@@ -295,7 +295,7 @@ Drone-mounted [thermal infrared cameras](https://en.wikipedia.org/wiki/Thermogra
 Companies like [Headwall](https://www.headwallphotonics.com/products/hyperspectral-sensors){target=_blank} are manufacturing hyperspectral sensors that can be mounted on drones. 
 <figure markdown>
   ![Image title](images/hyperspec.png){ width="350" }
-  <figcaption>Hyperspectral Sensor</figcaption>
+  <figcaption></figcaption>
 </figure>
 <br/>
 <figure markdown>
