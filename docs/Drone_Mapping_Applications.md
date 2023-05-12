@@ -2,9 +2,9 @@
 ## Mapping Applications
 ### Plant Agriculture
 ### Rangeland Management
-![](images/cows_srer.png){:height=300 width=300}
+![](images/cows_srer.png){:height=500 width=500}
 <br/>
-![](images/srer_pointcloud.png){:height=400 width=400}
+![](images/srer_pointcloud.png){:height=600 width=600}
 
 ### Construction
 ### Civil Engineering
