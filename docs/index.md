@@ -300,7 +300,7 @@ Companies like [Headwall](https://www.headwallphotonics.com/products/hyperspectr
 <br/>
 <figure markdown>
   ![Image title](images/hyperspec_signal.png){ width="350" }
-  <figcaption>Hyperspectral spectral signature</figcaption>
+  <figcaption>Hyperspectral spectral signature for Headwall Nano Hyperspec. The sensor has 270 bands ranging from 400-1000 nanometers</figcaption>
 </figure>
 
 ___
