@@ -6,16 +6,12 @@
   ![Image title](images/cows_srer.png){ width="500" }
   <figcaption>Cattle grazing at the Santa Rita Range in southern Arizona</figcaption>
 </figure>
-
-![](images/cows_srer.png){:height=500 width=500}
 <br/>
-
 <figure markdown>
   ![Image title](images/srer_pointcloud.png){ width="600" }
   <figcaption>Photogrammetric point cloud depicting forage utilization</figcaption>
 </figure>
 
-![](images/srer_pointcloud.png){:height=600 width=600}
 
 ### Construction
 ### Civil Engineering
