@@ -1,7 +1,15 @@
 
 ## Mapping Applications
 ### Plant Agriculture
+___
 ### Rangeland Management
+Drone imagery mapping can provide many types of data useful for rangeland management and monitoring:
+
+* Vegetation cover and composition 
+* Estimating forage utilization 
+* Calculating percentage of bare ground and size of canpy gaps 
+* Estimating forage and woody biomass 
+
 <figure markdown>
   ![Image title](images/cows_srer.png){ width="500" }
   <figcaption>Cattle grazing at the Santa Rita Range in southern Arizona</figcaption>
@@ -12,8 +20,10 @@
   <figcaption>Photogrammetric point cloud depicting forage utilization</figcaption>
 </figure>
 
-
+___
 ### Construction
+
+___
 ### Civil Engineering
 ### Forestry
 ![](images/forest_images.png){:height=300 width=300}
