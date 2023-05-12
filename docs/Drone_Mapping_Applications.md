@@ -25,7 +25,7 @@ Drone imagery mapping can provide many types of data useful for rangeland manage
     [Innovations to expand drone data collection and analysis for rangelands](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3649){target=_blank}
     [A pilot study to estimate forage mass from unmanned aerial vehicles in a semi-arid rangeland](https://www.mdpi.com/2072-4292/12/15/2431){target=_blank}
 
-
+<iframe width="862" height="485" src="https://www.youtube.com/embed/UDt6p9xyosI" title="Monitoring Rangelands with Drones for Sustainable Land Management" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ___
 ## Construction
 
