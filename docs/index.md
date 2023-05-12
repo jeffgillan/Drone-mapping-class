@@ -251,7 +251,7 @@ Multi-spectral cameras are very popular for drone mapping. Multi-spectral means 
 
 <figure markdown>
   ![Image title](images/micasense.png){ width="300" }
-  <figcaption>Micasense Altum Multi-Spectral</figcaption>
+  <figcaption>The Micasense Altum Multi-Spectral sensor with 5 bands (blue, green, red, red-edge, near infrared)</figcaption>
 </figure>
 
 ??? Tip "Multispectral Sensor Manufacturers"
