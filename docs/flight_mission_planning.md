@@ -1,4 +1,4 @@
-
+## Camera Characteristics
 <figure markdown>
   ![Image title](images/focal_length.png){ width="450" }
   <figcaption> </figcaption>
@@ -12,6 +12,13 @@
 </figure>
 
 <br/>
+
+##
+
+<figure markdown>
+  ![Image title](images/image_footprint){ width="450" }
+  <figcaption> </figcaption>
+</figure>
 
 <figure markdown>
   ![Image title](images/Forward_overlap.gif){ width="450" }
