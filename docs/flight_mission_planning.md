@@ -13,10 +13,9 @@
 
 <br/>
 
-##
 
 <figure markdown>
-  ![Image title](images/image_footprint){ width="450" }
+  ![Image title](images/image_footprint.png){ width="450" }
   <figcaption> </figcaption>
 </figure>
 
