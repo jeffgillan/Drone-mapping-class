@@ -1,4 +1,16 @@
+
+<figure markdown>
+  ![Image title](images/mission_planning.png){ width="600" }
+  <figcaption> </figcaption>
+</figure>
+
+<br/> 
+
 ## Camera Characteristics
+
+Inside the camera, the **Focal Length** is the distance from the lens to the sensor plane (usually reported in mm)
+<br/>
+
 <figure markdown>
   ![Image title](images/focal_length.png){ width="600" }
   <figcaption> </figcaption>
@@ -7,12 +19,9 @@
 <br/>
 
 <figure markdown>
-  ![Image title](images/mission_planning.png){ width="600" }
+  ![Image title](images/focal_length2.png){ width="600" }
   <figcaption> </figcaption>
 </figure>
-
-<br/>
-
 
 <figure markdown>
   ![Image title](images/image_footprint.png){ width="450" }
@@ -24,10 +33,7 @@
   <figcaption> </figcaption>
 </figure>
 
-<figure markdown>
-  ![Image title](images/focal_length2.png){ width="600" }
-  <figcaption> </figcaption>
-</figure>
+
 
 <figure markdown>
   ![Image title](images/gsd.png){ width="450" }
