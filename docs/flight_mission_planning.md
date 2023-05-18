@@ -1,13 +1,13 @@
 ## Camera Characteristics
 <figure markdown>
-  ![Image title](images/focal_length.png){ width="450" }
+  ![Image title](images/focal_length.png){ width="600" }
   <figcaption> </figcaption>
 </figure>
 
 <br/>
 
 <figure markdown>
-  ![Image title](images/mission_planning.png){ width="450" }
+  ![Image title](images/mission_planning.png){ width="600" }
   <figcaption> </figcaption>
 </figure>
 
@@ -25,7 +25,7 @@
 </figure>
 
 <figure markdown>
-  ![Image title](images/focal_length2.png){ width="450" }
+  ![Image title](images/focal_length2.png){ width="600" }
   <figcaption> </figcaption>
 </figure>
 
