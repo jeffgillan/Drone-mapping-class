@@ -38,7 +38,7 @@ Digital cameras have an array of tiny photosites (corresponding to pixels) that 
 the number of photosites can vary between sensors. 
 <br/>
 <br/>
-The graphic below shows the sensor array of the Phantom 4 camera. Multiplyng the number of photosides (pixels) wide by the number of photosites
+The graphic below shows the sensor array of the Phantom 4 camera. Multiplying the number of photosides (pixels) wide by the number of photosites
 heigh will tell you the total number of photosites for the array. In our example, the camera has 19.9 million pixels, which are also called megapixels. 
 
 <figure markdown>
@@ -49,6 +49,10 @@ heigh will tell you the total number of photosites for the array. In our example
 
 ## Image Footprint and Ground Sampling
 Based on the physical camera characteristics and the flying height of the drone, you can calculate the dimensions of the on-the-ground image footprint and the area that each pixel captures
+<br/>
+**Ground Sampling Distance (GSD)** is the width of area on the ground that is captured by on pixel. It is also commonly referred to as pixel _size_
+<br/>
+For example, a pixel that captures an area of 2 x 2 cm (4 cm^2^) is said to have a GSD of 2 cm. 
 
 <figure markdown>
   ![Image title](images/image_footprint.png){ width="450" }
