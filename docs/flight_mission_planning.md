@@ -48,25 +48,22 @@ heigh will tell you the total number of photosites for the array. In our example
 <br/>
 
 ## Image Footprint and Ground Sampling
-Based on the physical camera characteristics and the flying height of the drone, you can calculate the dimensions of the on-the-ground image footprint and the area that each pixel captures
-<br/>
-**Ground Sampling Distance (GSD)** is the width of area on the ground that is captured by on pixel. It is also commonly referred to as pixel _size_
+**Image Footprint** is the rectangular ground area that is captured by a camera exposure. 
+
+**Ground Sampling Distance (GSD)** is the width of area on the ground that is captured by on pixel. It is also commonly referred to as pixel _size_.
 <br/>
 For example, a pixel that captures an area of 2 x 2 cm (4 cm^2^) is said to have a GSD of 2 cm. 
+<br/><br/>
 
 <figure markdown>
-  ![Image title](images/image_footprint.png){ width="450" }
+  ![Image title](images/gsd_footprint.png){ width="700" }
   <figcaption> </figcaption>
 </figure>
 
 <br/>
-
-<figure markdown>
-  ![Image title](images/gsd.png){ width="450" }
-  <figcaption> </figcaption>
-</figure>
-<br/>
-
+As a drone camera gets higher in the sky (further away from the ground), the image footprint and GSD get larger.
+<br/><br/>
+We can calculate the image footprint and GSD with simple formulas that include the camera physical characteristics and flying height. 
 
 ??? Tip "Image Footprint and GSD Calculator"
 
