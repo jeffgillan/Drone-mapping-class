@@ -113,8 +113,129 @@ ____
 
 
 
+<figure markdown>
+  ![Image title](images/six_views.png){ width="450" }
+  <figcaption> </figcaption>
+</figure>
+____
+## Mission Planning
+
+<iframe width="700" height="400" src="https://www.youtube.com/embed/XoPV-eT-1Ds" title="Ultimate Pix4D tutorial 3D mapping" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<br/>
+
+User defined parameters include: Flying height (m), ground sampling distance, forward overlap (%), side overlap (%), flying speed (m/s), and gimbal angle 
+
+Computed for you: Exact flying route, timing between exposures
 
 
 
+<figure markdown>
+  ![Image title](images/planned_mission.png){ width="450" }
+  <figcaption> </figcaption>
+</figure>
+
+
+<figure markdown>
+  ![Image title](images/exposure_stations.png){ width="450" }
+  <figcaption> </figcaption>
+</figure>
+
+
+<figure markdown>
+  ![Image title](images/flight_lines.png){ width="450" }
+  <figcaption> </figcaption>
+</figure>
+
+
+<figure markdown>
+  ![Image title](images/images_per_line.png){ width="450" }
+  <figcaption> </figcaption>
+</figure>
+
+Double Grid advantage: better photographic coverage leading to better 3D modeling
+<br/>
+<br/>
+Disadvantage: longer flight times, larger datasets take longer to process
+
+<figure markdown>
+  ![Image title](images/single_grid.png){ width="350" }
+  <figcaption> </figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/double_grid.png){ width="400" }
+  <figcaption> </figcaption>
+</figure>
+
+
+
+<figure markdown>
+  ![Image title](images/controller_screenshot1.png){ width="400" }
+  <figcaption> </figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/controller_screenshot2.png){ width="400" }
+  <figcaption> </figcaption>
+</figure>
+
+Aerial mapping is typically vertical (nadir) but oblique images can also be used in photogrammetry.
+The addition of oblique images ca improve photogrammetry solutions and improve 3D point clouds at the base of vertical objects
+
+<figure markdown>
+  ![Image title](images/nadir_oblique.png){ width="300" }
+  <figcaption> </figcaption>
+</figure>
+
+
+<figure markdown>
+  ![Image title](images/nadir_plus_oblique.png){ width="600" }
+  <figcaption> </figcaption>
+</figure>
+
+GSD Recommendations: Features of interest should drive the optimal GSD; detecting (and 3D modeling) small objects requires finer GSD; Coarser GSD will lead to coarser 3D modeling
+
+
+<figure markdown>
+  ![Image title](images/GSD_recommendations.png){ width="700" }
+  <figcaption> </figcaption>
+</figure>
+
+Mission planning Tips:
+
+ollect imagery with pre-programmed autonomous flights. Don’t try to collect imagery with manual flying! 
+
+Make your flight areas into simple polygons like rectangles. Don’t draw complicated flight areas.
+
+Make the flight polygon bigger than your area of interest by 10-15%. The periphery of imagery products are often of less quality.
+
+Flying higher  =  Cover more land (extent)   =   Image resolution (grain) is coarser
+
+Small alterations to flying height and polygon size can make a big difference in how long the total mission takes 
+
+Always plan flights around quantity and endurance of your flight batteries
+
+
+<figure markdown>
+  ![Image title](images/holy_trinity.png){ width="700" }
+  <figcaption> </figcaption>
+</figure>
+
+
+
+<figure markdown>
+  ![Image title](images/motion_blur.png){ width="700" }
+  <figcaption> </figcaption>
+</figure>
+
+
+
+White balance: never use automatic white balance! Images will have different hues. Set camera to 'sunny' or 'cloudy'
+
+<figure markdown>
+  ![Image title](images/white_balance.png){ width="700" }
+  <figcaption> </figcaption>
+</figure>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bTIgjjeYtWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
