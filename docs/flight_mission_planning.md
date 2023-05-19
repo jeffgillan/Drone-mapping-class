@@ -67,7 +67,7 @@ For example, a pixel that captures an area of 2 x 2 cm (4 cm^2^) is said to have
 </figure>
 <br/>
 
-[Pix4D](https://www.pix4d.com/){target=_blank} has a nice [GSD calculator tool](https://support.pix4d.com/hc/en-us/articles/202560249-TOOLS-GSD-calculator){target=_blank} to calculate image dimensions and pixel ground sampling distance based on your drone specs
+[Pix4D](https://www.pix4d.com/){target=_blank} has a nice [GSD calculator tool]([https://support.pix4d.com/hc/en-us/articles/202560249-TOOLS-GSD-calculator](https://s3.amazonaws.com/mics.pix4d.com/KB/documents/Pix4D_GSD_Calculator.xlsx)){target=_blank} to calculate image dimensions and pixel ground sampling distance based on your drone specs
 <figure markdown>
   ![Image title](images/gsd_calculator.png){ width="700" }
   <figcaption> </figcaption>
