@@ -89,6 +89,10 @@ We can calculate the image footprint and GSD with simple formulas that include t
      ![Image title](images/gsd_calculator.png){ width="700" }
       <figcaption> </figcaption>
     </figure>
+<br/>
+Check out this video which describes how to calculate GSD of aerial images
+<iframe width="700" height="400" src="https://www.youtube.com/embed/nUFxmecRCec" title="Scale and Digital Aerial Imagery" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ____
 
 ## Stereo Aerial Photography
