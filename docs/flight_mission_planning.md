@@ -46,7 +46,7 @@ heigh will tell you the total number of photosites for the array. In our example
   <figcaption> </figcaption>
 </figure>
 <br/>
-
+____
 ## Image Footprint and Ground Sampling
 **Image Footprint** is the rectangular ground area that is captured by a camera exposure. 
 
@@ -63,6 +63,12 @@ For example, a pixel that captures an area of 2 x 2 cm (4 cm^2^) is said to have
 <br/>
 As a drone camera gets higher in the sky (further away from the ground), the image footprint and GSD get larger.
 <br/><br/>
+<figure markdown>
+  ![Image title](images/combined_scale2.gif){ width="800" }
+  <figcaption> </figcaption>
+</figure>
+
+
 We can calculate the image footprint and GSD with simple formulas that include the camera physical characteristics and flying height. 
 
 ??? Tip "Image Footprint and GSD Calculator"
@@ -74,10 +80,7 @@ We can calculate the image footprint and GSD with simple formulas that include t
     </figure>
 
 
-<figure markdown>
-  ![Image title](images/combined_scale2.gif){ width="750" }
-  <figcaption> </figcaption>
-</figure>
+
 
 
 <figure markdown>
