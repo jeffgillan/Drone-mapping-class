@@ -58,7 +58,6 @@ However, with the advent of fully digital aerial photography workflows and the c
 <br/>
 When it comes to drone imagery scale, the two important concepts to understand are **image footprint** and **ground sampling distance**.  
 <br/>
-<br/>
 
 **Image Footprint** is the rectangular ground area that is captured by a camera exposure. 
 
@@ -72,9 +71,9 @@ For example, a pixel that captures an area of 2 x 2 cm (4 cm^2^) is said to have
   <figcaption> </figcaption>
 </figure>
 
-<br/>
-As a drone camera gets higher in the sky (further away from the ground), the image footprint and GSD get larger.
 <br/><br/>
+As a drone camera gets higher in the sky (further away from the ground), the image footprint and GSD get larger.
+<br/>
 <figure markdown>
   ![Image title](images/combined_scale2.gif){ width="800" }
   <figcaption> </figcaption>
@@ -90,9 +89,9 @@ We can calculate the image footprint and GSD with simple formulas that include t
      ![Image title](images/gsd_calculator.png){ width="700" }
       <figcaption> </figcaption>
     </figure>
+____
 
-
-
+## Stereo Aerial Photography
 
 
 <figure markdown>
