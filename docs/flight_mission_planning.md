@@ -65,7 +65,7 @@ Based on the physical camera characteristics and the flying height of the drone,
 
 [Pix4D](https://www.pix4d.com/){target=_blank} has a nice [GSD calculator tool](https://support.pix4d.com/hc/en-us/articles/202560249-TOOLS-GSD-calculator){target=_blank} to calculate image dimensions and pixel ground sampling distance based on your drone specs
 <figure markdown>
-  ![Image title](images/gsd_calculator.png){ width="450" }
+  ![Image title](images/gsd_calculator.png){ width="700" }
   <figcaption> </figcaption>
 </figure>
 
