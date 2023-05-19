@@ -12,7 +12,7 @@ Inside the camera, the **Focal Length** is the distance from the lens to the sen
 <br/>
 
 <figure markdown>
-  ![Image title](images/focal_length.png){ width="600" }
+  ![Image title](images/focal_length.png){ width="750" }
   <figcaption> </figcaption>
 </figure>
 
