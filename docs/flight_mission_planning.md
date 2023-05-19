@@ -18,7 +18,7 @@ Inside the camera, the **Focal Length** is the distance from the lens to the sen
 
 <br/>
 
-The **camera field of view (FOV)** is the extent of the observable world that can be seen at any give moment. FOV is typically reported in degrees and can vary greatly between lens and camera types. 
+The **camera field of view (FOV)**, also called the angle of view, is the extent of the observable world that can be seen at any give moment. FOV is typically reported in degrees and can vary greatly between lens and camera types. 
 <br/>
 <br/>
 Typically a camera with a longer focal length will have a narrower FOV and a camera with a shorter focal length will have a wider FOV. Drone cameras often have a fairly wide FOV because they are meant
@@ -34,12 +34,12 @@ The graphic below shows the relationship between focal length and FOV. Highlight
 </figure>
 
 <br/>
-Digital cameras have an array of tiny photosites (corresponding to pixels) that make up the light sensitive sensor. The physical size (width and height in mm) as well as
+Digital cameras have a **sensor array** of millions of tiny photosites (corresponding to pixels) that are each sensitive to light. The physical size (width and height in mm) as well as
 the number of photosites can vary between sensors. 
 <br/>
 <br/>
-The graphic below shows the sensor array of the Phantom 4 camera. Multiplying the number of photosides (pixels) wide by the number of photosites
-heigh will tell you the total number of photosites for the array. In our example, the camera has 19.9 million pixels, which are also called megapixels. 
+The graphic below shows the sensor array of the Phantom 4 camera. Multiplying the number of photosites (pixels) wide by the number of photosites
+high will tell you the total number of photosites for the array. In our example, the camera has 19.9 million pixels, which are also called megapixels. 
 
 <figure markdown>
   ![Image title](images/sensor_array.png){ width="600" }
@@ -50,7 +50,7 @@ ____
 ## Aerial Imagery Scale
 In traditional aerial photography, **scale** was defined as _the ratio of the distance between two points on an image to the actual distance between the same two points on the ground_.
 Scale was generally reported as _1:25,000_ or similar. So if I had a printed aerial photograph and measured the distance between two objects to be 0.25 inches and the scale was 1:25,000,
-the real world distance between the objects would be 6250 inches or 520.8 feet. 
+the real world distance between the objects would be 6250 inches (0.25 x 25,000) or 520.8 feet. 
 <br/>
 <br/>
 However, with the advent of fully digital aerial photography workflows and the computer screen being the primary tool for viewing imagery, the traditional concept of reporting scale is less useful. 
@@ -61,8 +61,7 @@ When it comes to drone imagery scale, the two important concepts to understand a
 
 **Image Footprint** is the rectangular ground area that is captured by a camera exposure. 
 
-**Ground Sampling Distance (GSD)** is the width of area on the ground that is captured by one pixel. It is also commonly referred to as _pixel size_.
-<br/>
+**Ground Sampling Distance (GSD)** is the width of area on the ground that is captured by one pixel. It is also commonly referred to as _pixel size_ or _spatial resolution_.
 For example, a pixel that captures an area of 2 x 2 cm (4 cm^2^) is said to have a GSD of 2 cm. 
 <br/><br/>
 
