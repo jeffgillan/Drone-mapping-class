@@ -97,6 +97,15 @@ ____
 
 ## Stereo Aerial Photography
 
+<figure markdown>
+  ![Image title](images/overlap.png){ width="450" }
+  <figcaption> </figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/stereo.png){ width="450" }
+  <figcaption> </figcaption>
+</figure>
 
 <figure markdown>
   ![Image title](images/Forward_overlap.gif){ width="450" }
