@@ -71,6 +71,12 @@ Based on the physical camera characteristics and the flying height of the drone,
 
 
 <figure markdown>
+  ![Image title](images/combined_scale.gif){ width="600" }
+  <figcaption> </figcaption>
+</figure>
+
+
+<figure markdown>
   ![Image title](images/Forward_overlap.gif){ width="450" }
   <figcaption> </figcaption>
 </figure>
