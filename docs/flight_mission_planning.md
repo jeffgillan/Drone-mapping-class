@@ -103,7 +103,7 @@ ____
 </figure>
 
 <figure markdown>
-  ![Image title](images/stereo.png){ width="450" }
+  ![Image title](images/stereo_imagery.png){ width="450" }
   <figcaption> </figcaption>
 </figure>
 
