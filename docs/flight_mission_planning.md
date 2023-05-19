@@ -53,7 +53,7 @@ Scale was generally reported as _1:25,000_ or similar. So if I had a printed aer
 the real world distance between the objects would be 6250 inches or 520.8 feet. 
 <br/>
 <br/>
-However, with the advent of fully digital aerial photography workflows and the computer screen being the primary tool for viewing imagery, the tradional concept of reporting scale has diminished value. 
+However, with the advent of fully digital aerial photography workflows and the computer screen being the primary tool for viewing imagery, the traditional concept of reporting scale is less useful. 
 <br/>
 <br/>
 When it comes to drone imagery scale, the two important concepts to understand are **image footprint** and **ground sampling distance**.  
