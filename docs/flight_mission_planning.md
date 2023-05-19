@@ -47,10 +47,22 @@ heigh will tell you the total number of photosites for the array. In our example
 </figure>
 <br/>
 ____
-## Image Footprint and Ground Sampling
+## Aerial Imagery Scale
+In traditional aerial photography, **scale** was defined as _the ratio of the distance between two points on an image to the actual distance between the same two points on the ground_.
+Scale was generally reported as _1:25,000_ or similar. So if I had a printed aerial photograph and measured the distance between two objects to be 0.25 inches and the scale was 1:25,000,
+the real world distance between the objects would be 6250 inches or 520.8 feet. 
+<br/>
+<br/>
+However, with the advent of fully digital aerial photography workflows and the computer screen being the primary tool for viewing imagery, the tradional concept of reporting scale has diminished value. 
+<br/>
+<br/>
+When it comes to drone imagery scale, the two important concepts to understand are **image footprint** and **ground sampling distance**.  
+<br/>
+<br/>
+
 **Image Footprint** is the rectangular ground area that is captured by a camera exposure. 
 
-**Ground Sampling Distance (GSD)** is the width of area on the ground that is captured by on pixel. It is also commonly referred to as pixel _size_.
+**Ground Sampling Distance (GSD)** is the width of area on the ground that is captured by one pixel. It is also commonly referred to as _pixel size_.
 <br/>
 For example, a pixel that captures an area of 2 x 2 cm (4 cm^2^) is said to have a GSD of 2 cm. 
 <br/><br/>
