@@ -50,7 +50,6 @@ heigh will tell you the total number of photosites for the array. In our example
 ## Image Footprint and Ground Sampling
 Based on the physical camera characteristics and the flying height of the drone, you can calculate the dimensions of the on-the-ground image footprint and the area that each pixel captures
 
-
 <figure markdown>
   ![Image title](images/image_footprint.png){ width="450" }
   <figcaption> </figcaption>
@@ -65,6 +64,11 @@ Based on the physical camera characteristics and the flying height of the drone,
 <br/>
 
 [Pix4D](https://www.pix4d.com/){target=_blank} has a nice [GSD calculator tool](https://support.pix4d.com/hc/en-us/articles/202560249-TOOLS-GSD-calculator){target=_blank} to calculate image dimensions and pixel ground sampling distance based on your drone specs
+<figure markdown>
+  ![Image title](images/gsd_calculator.png){ width="450" }
+  <figcaption> </figcaption>
+</figure>
+
 
 <figure markdown>
   ![Image title](images/Forward_overlap.gif){ width="450" }
