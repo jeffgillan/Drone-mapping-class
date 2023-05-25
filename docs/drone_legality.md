@@ -22,6 +22,52 @@
 ![](images/height_limitations.png)
 ![](images/no_flying.png)
 
+<figure markdown>
+  ![Image title](images/airspace.png){ width="500" }
+  <figcaption></figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/airchart.png){ width="800" }
+  <figcaption></figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/flight_service.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/skyvector.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/airchart_legend.png){ width="800" }
+  <figcaption></figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/tfr.png){ width="800" }
+  <figcaption></figcaption>
+</figure>
+
+
+<figure markdown>
+  ![Image title](images/B4Ufly.png){ width="800" }
+  <figcaption></figcaption>
+</figure>
+
+
+<figure markdown>
+  ![Image title](images/LAANC.gif){ width="600" }
+  <figcaption></figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/aloft.png){ width="180" }
+  <figcaption></figcaption>
+</figure>
 
 ## Remote ID
 ## Special Waivers
