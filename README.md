@@ -1,4 +1,4 @@
-# Drone Mapping Class
+# Resource Mapping with Drones
 Testing
 
 # development instructions
