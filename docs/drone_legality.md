@@ -23,12 +23,12 @@
 ![](images/no_flying.png)
 
 <figure markdown>
-  ![Image title](images/airspace.png){ width="500" }
+  ![Image title](images/airspace.png){ width="700" }
   <figcaption></figcaption>
 </figure>
 
 <figure markdown>
-  ![Image title](images/airchart.png){ width="800" }
+  ![Image title](images/airspace2.png){ width="700" }
   <figcaption></figcaption>
 </figure>
 
