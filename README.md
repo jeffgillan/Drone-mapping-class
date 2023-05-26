@@ -1,5 +1,5 @@
 # Resource Mapping with Drones
-Testing
+This repository is filled with educational material to learn about photographic mapping from camera drones. 
 
 # development instructions
 ```
