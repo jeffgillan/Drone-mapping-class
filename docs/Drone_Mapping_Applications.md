@@ -1,4 +1,7 @@
 ## Plant Agriculture
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KeOxsSbWJxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ___
 ## Rangeland Management
 Drone imagery mapping can provide many types of data useful for rangeland management and monitoring:
@@ -18,6 +21,12 @@ Drone imagery mapping can provide many types of data useful for rangeland manage
   <figcaption>Photogrammetric point cloud depicting forage utilization</figcaption>
 </figure>
 
+<figure markdown>
+  ![Image title](images/utilization_point_cloud.jpg){ width="500" }
+  <figcaption></figcaption>
+</figure>
+
+
 ??? Tip "Examples From the Literature"
 
     [Integrating drone imagery with existing rangeland monitoring programs](https://link.springer.com/article/10.1007/s10661-020-8216-3){target=_blank}
@@ -35,6 +44,8 @@ ___
 ## Forestry
 ![](images/forest_images.png){:height=600 width=600}
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qvwargqqP6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Mining
 ![](images/mining1.png){:height=300 width=300}
 ![](images/mining2.png){:height=200 width=300}
@@ -45,6 +56,9 @@ ___
 ![](images/coral_reef.png){:height=200 width=300}
 
 ## Rivers & Wetlands
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JAY1NuT6sZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Topographic Change
 ## Wildlife Surveys
 ![](images/monkey_survey.png){:height=200 width=300}

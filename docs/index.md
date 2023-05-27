@@ -281,8 +281,10 @@ Drone-mounted [thermal infrared cameras](https://en.wikipedia.org/wiki/Thermogra
   <figcaption>Velodyne LiDAR Sensor</figcaption>
 </figure>
 
+
+
 <figure markdown>
-  ![Image title](images/lidar_pointcloud.png){ width="500" }
+  ![Image title](images/lidar_tree.png){ width="400" }
   <figcaption>LiDAR Point Cloud</figcaption>
 </figure>
 
