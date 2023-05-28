@@ -34,14 +34,30 @@
   <figcaption></figcaption>
 </figure>
 
+<figure markdown>
+  ![Image title](images/cloud_compare.png){ width="700" }
+  <figcaption></figcaption>
+</figure>
+
+
 
 ##Digital Elevation Models
 
 ###Digital Surface Models (DSMs)
 
+<figure markdown>
+  ![Image title](images/cloud_compress.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/dsm.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
+
 ###Digital Terrain Models (DTMs)
 
-##Orthmosaic
+##Orthomosaic
 <iframe width="560" height="315" src="https://www.youtube.com/embed/g8mapLUXyGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
