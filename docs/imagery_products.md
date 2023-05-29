@@ -117,5 +117,15 @@
   <figcaption></figcaption>
 </figure>
 
+<figure markdown>
+  ![Image title](images/orthophotograph.png){ width="600" }
+  <figcaption></figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/ortho_perspective.png){ width="600" }
+  <figcaption></figcaption>
+</figure>
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Dwk_Jm0efVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
