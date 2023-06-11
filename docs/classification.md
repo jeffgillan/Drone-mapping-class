@@ -63,15 +63,93 @@
 [Disaster damage detection through synergistic use of deep learning and 3D point cloud features derived from very high resolution oblique aerial images, and multiple-kernel-learning](https://doi.org/10.1016/j.isprsjprs.2017.03.001 ){target=_blank}
 
 
+![Image title](images/class_approach1.png){ width="300" }
+
+<figure markdown>
+  ![Image title](images/class_approach2.png){ width="500" }
+  <figcaption>Semantic Segmentation</figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/class_approach3.png){ width="300" }
+  <figcaption>Object Detection</figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/class_approach4.png){ width="300" }
+  <figcaption>Instance Segmentation</figcaption>
+</figure>
+
 <figure markdown>
   ![Image title](images/class_workflow.png){ width="750" }
   <figcaption></figcaption>
 </figure>
 
+<figure markdown>
+  ![Image title](images/supervised_workflow.png){ width="600" }
+  <figcaption></figcaption>
+</figure>
 
 
+<figure markdown>
+  ![Image title](images/choosing_classes.png){ width="600" }
+  <figcaption></figcaption>
+</figure>
 
 
+<figure markdown>
+  ![Image title](images/geographic_features.png){ width="400" }
+  <figcaption></figcaption>
+</figure>
 
+<figure markdown>
+  ![Image title](images/select_training.png){ width="750" }
+  <figcaption></figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/feature_space.png){ width="400" }
+  <figcaption>Jensen, J.R., 2016, Introductory Digital Image Processing: A Remote Sensing Perspective, Boston: Pearson Education, Inc., 623 p.</figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/class_tree1.png){ width="500" }
+  <figcaption></figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/training_table.png){ width="400" }
+  <figcaption></figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/class_tree2.png){ width="500" }
+  <figcaption></figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/predict_table.png){ width="250" }
+  <figcaption></figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/random_forest.png){ width="500" }
+  <figcaption></figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/pixelated.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/shrub_pixelated.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/obia1.png){ width="350" }
+  <figcaption></figcaption>
+</figure>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nULEg3nwhxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
