@@ -152,4 +152,54 @@
   <figcaption></figcaption>
 </figure>
 
+
+<figure markdown>
+  ![Image title](images/aerial_pixels.png){ width="400" }
+  <figcaption>Pixels</figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/aerial_objects.png){ width="400" }
+  <figcaption>Unclassified Objects</figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/unclassified_objects.png){ width="400" }
+  <figcaption></figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/classified_objects.png){ width="400" }
+  <figcaption></figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/sampling_methods.png){ width="450" }
+  <figcaption></figcaption>
+</figure>
+
+
+<figure markdown>
+  ![Image title](images/accuracy_table.png){ width="350" }
+  <figcaption></figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/error_matrix.png){ width="450" }
+  <figcaption></figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/class_overlap.png){ width="450" }
+  <figcaption></figcaption>
+</figure>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QzY57FaENXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aircAruvnKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FmpDIaiMIeA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nULEg3nwhxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
