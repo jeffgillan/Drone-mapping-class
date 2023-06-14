@@ -5,6 +5,18 @@
 </figure>
 
 <br/> 
+This module will cover the basics of how to collect drone imagery for photographic mapping purposes. The topics include:
+
+* Physical camera characteristics
+
+* Aerial Imagery Scale
+
+* Principles of Stereo Photography
+
+* Autonomous Mission Planning
+
+<br/>
+____
 
 ## Camera Characteristics
 
@@ -43,7 +55,7 @@ high will tell you the total number of photosites for the array. In our example,
 
 <figure markdown>
   ![Image title](images/sensor_array.png){ width="600" }
-  <figcaption> </figcaption>
+  <figcaption>Sensor Array</figcaption>
 </figure>
 <br/>
 ____
@@ -90,37 +102,39 @@ We can calculate the image footprint and GSD with simple formulas that include t
     </figure>
 <br/>
 Check out this video which describes how to calculate GSD of aerial images
-<iframe width="700" height="400" src="https://www.youtube.com/embed/nUFxmecRCec" title="Scale and Digital Aerial Imagery" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nUFxmecRCec" title="Scale and Digital Aerial Imagery" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br/><br/>
 ____
 
 ## Stereo Aerial Photography
 
+Photographic mapping from drones requires overlapping imagery. That is, as the drone is flying and taking pictures, the image footprints should overlap. Overlap is usually reported as a percentage (%). **Forward overlap** is the overlap % from successive image footprints. **Side overlap** is the overlap % from adjacent flight lines. 
+
 <figure markdown>
-  ![Image title](images/overlap.png){ width="450" }
+  ![Image title](images/stereo_imagery.png){ width="350" }
   <figcaption> </figcaption>
 </figure>
 
+For robust photogrammetry, it is recommended to have **forward overlap of 70%-85%** and **side overlap of 70%-80%**. But these are not hard and fast rules, just recommendations. Optimal overlap will differ depending on the landscape you are imaging and your goal for your imagery products. 
+
+
 <figure markdown>
-  ![Image title](images/stereo_imagery.png){ width="450" }
+  ![Image title](images/Forward_overlap.gif){ width="550" }
   <figcaption> </figcaption>
 </figure>
 
-<figure markdown>
-  ![Image title](images/Forward_overlap.gif){ width="450" }
-  <figcaption> </figcaption>
-</figure>
-
-
+Footprint overlap means that any given location on the ground is being imaged from multiple perspectives. In the example graphic below, the shrub is being imaged from 6 different perpective views.  
 
 <figure markdown>
   ![Image title](images/six_views.png){ width="450" }
   <figcaption> </figcaption>
 </figure>
+
+<br/><br/>
 ____
 ## Mission Planning
 
-<iframe width="700" height="400" src="https://www.youtube.com/embed/XoPV-eT-1Ds" title="Ultimate Pix4D tutorial 3D mapping" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XoPV-eT-1Ds" title="Ultimate Pix4D tutorial 3D mapping" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <br/>
 
@@ -153,32 +167,31 @@ Computed for you: Exact flying route, timing between exposures
   <figcaption> </figcaption>
 </figure>
 
-Double Grid advantage: better photographic coverage leading to better 3D modeling
+<figure markdown>
+  ![Image title](images/controller_screenshot1.png){ width="700" }
+  <figcaption> </figcaption>
+</figure>
+
+<figure markdown>
+  ![Image title](images/controller_screenshot2.png){ width="700" }
+  <figcaption> </figcaption>
+</figure>
+
+### Double v Single Grid
+
+**Double Grid Advantages:**
+
+Better photographic coverage leading to better 3D modeling
 <br/>
 <br/>
-Disadvantage: longer flight times, larger datasets take longer to process
 
-<figure markdown>
-  ![Image title](images/single_grid.png){ width="350" }
-  <figcaption> </figcaption>
-</figure>
+**Double Grid Disadvantages:** 
 
-<figure markdown>
-  ![Image title](images/double_grid.png){ width="400" }
-  <figcaption> </figcaption>
-</figure>
+Longer flight times; larger datasets that take longer to process
 
+  ![Image title](images/single_grid.png){ width="285" } ![Image title](images/double_grid.png){ width="350" }
 
-
-<figure markdown>
-  ![Image title](images/controller_screenshot1.png){ width="400" }
-  <figcaption> </figcaption>
-</figure>
-
-<figure markdown>
-  ![Image title](images/controller_screenshot2.png){ width="400" }
-  <figcaption> </figcaption>
-</figure>
+### Oblique Imagery
 
 Aerial mapping is typically vertical (nadir) but oblique images can also be used in photogrammetry.
 The addition of oblique images ca improve photogrammetry solutions and improve 3D point clouds at the base of vertical objects
@@ -194,28 +207,30 @@ The addition of oblique images ca improve photogrammetry solutions and improve 3
   <figcaption> </figcaption>
 </figure>
 
-GSD Recommendations: Features of interest should drive the optimal GSD; detecting (and 3D modeling) small objects requires finer GSD; Coarser GSD will lead to coarser 3D modeling
+### GSD Recommendations
+ Features of interest should drive the optimal GSD; detecting (and 3D modeling) small objects requires finer GSD; Coarser GSD will lead to coarser 3D modeling
 
 
 <figure markdown>
   ![Image title](images/GSD_recommendations.png){ width="700" }
   <figcaption> </figcaption>
 </figure>
+<br/><br/>
 
-Mission planning Tips:
+### Mission planning Tips
 
-ollect imagery with pre-programmed autonomous flights. Don’t try to collect imagery with manual flying! 
+* Collect imagery with pre-programmed autonomous flights. Don’t try to collect imagery with manual flying! 
 
-Make your flight areas into simple polygons like rectangles. Don’t draw complicated flight areas.
+* Make your flight areas into simple polygons like rectangles. Don’t draw complicated flight areas.
 
-Make the flight polygon bigger than your area of interest by 10-15%. The periphery of imagery products are often of less quality.
+* Make the flight polygon bigger than your area of interest by 10-15%. The periphery of imagery products are often of less quality.
 
-Flying higher  =  Cover more land (extent)   =   Image resolution (grain) is coarser
+* Small alterations to flying height and polygon size can make a big difference in how long the total mission takes 
 
-Small alterations to flying height and polygon size can make a big difference in how long the total mission takes 
-
-Always plan flights around quantity and endurance of your flight batteries
-
+* Always plan flights around quantity and endurance of your flight batteries
+<br/><br/>
+___
+## Camera Settings
 
 <figure markdown>
   ![Image title](images/holy_trinity.png){ width="700" }
