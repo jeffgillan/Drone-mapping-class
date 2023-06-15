@@ -122,7 +122,7 @@ For robust photogrammetry, it is recommended to have **forward overlap of 70%-85
   ![Image title](images/Forward_overlap.gif){ width="550" }
   <figcaption> </figcaption>
 </figure>
-
+<br/><br/>
 Footprint overlap means that any given location on the ground is being imaged from multiple perspectives. In the example graphic below, the shrub is being imaged from 6 different perpective views.  
 
 <figure markdown>
@@ -132,40 +132,64 @@ Footprint overlap means that any given location on the ground is being imaged fr
 
 <br/><br/>
 ____
-## Mission Planning
+## Autonomous Mission Planning
+
+The most efficient way to collect overlapping drone imagery of a landscape is to plan and execute an **autonomous flight plan**. Nearly all modern drones have software applications that empower you program the drone to capture imagery of an area interest - all automatically! 
+
+Please check out the following video for an example of autonomous mission planning. All autonomous planning and flying apps will be slightly different from each other, but the basics are generally universal. It can be as simple as tapping a bounding box, selecting a few user parameters, and launching the drone!  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XoPV-eT-1Ds" title="Ultimate Pix4D tutorial 3D mapping" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <br/>
 
-User defined parameters include: Flying height (m), ground sampling distance, forward overlap (%), side overlap (%), flying speed (m/s), and gimbal angle 
+Autonomous planning and flying apps generally have a suite of user-defined parameters that enable you to customize your flight. These parameters include:
 
-Computed for you: Exact flying route, timing between exposures
+* A box or polygon designating the area to be imaged
+
+* Flying height (m) 
+
+* Ground sampling distance (cm) 
+
+* Forward overlap (%) and side overlap (%)
+
+* Flying speed (m/s)
+
+* Gimbal angle 
+
+Based on the user-defined parameters, the mapping software will compute the following:
+
+* Exact flying route including the number and spacing of flight lines
+
+* Timing between exposures
 
 
 
 <figure markdown>
-  ![Image title](images/planned_mission.png){ width="450" }
+  ![Image title](images/planned_mission.png){ width="350" }
   <figcaption> </figcaption>
 </figure>
 
 
 <figure markdown>
-  ![Image title](images/exposure_stations.png){ width="450" }
+  ![Image title](images/exposure_stations.png){ width="500" }
   <figcaption> </figcaption>
 </figure>
 
+??? Tip "Calculate Number of Images per Flight Line"
 
-<figure markdown>
-  ![Image title](images/flight_lines.png){ width="450" }
-  <figcaption> </figcaption>
-</figure>
+    <figure markdown>
+     ![Image title](images/images_per_line.png){ width="500" }
+      <figcaption> </figcaption>
+    </figure>
 
 
-<figure markdown>
-  ![Image title](images/images_per_line.png){ width="450" }
-  <figcaption> </figcaption>
-</figure>
+??? Tip "Calculate Number of Flight Lines for a Flight Area"
+
+    <figure markdown>
+     ![Image title](images/flight_lines.png){ width="500" }
+      <figcaption> </figcaption>
+    </figure>
+
 
 <figure markdown>
   ![Image title](images/controller_screenshot1.png){ width="700" }
