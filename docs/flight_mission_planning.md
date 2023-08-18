@@ -20,6 +20,7 @@ ____
 
 ## Camera Characteristics
 
+### Focal Length & Field of View
 Inside the camera, the **Focal Length** is the distance from the lens to the sensor plane (usually reported in mm)
 <br/>
 
@@ -45,7 +46,8 @@ The graphic below shows the relationship between focal length and FOV. Highlight
   <figcaption> </figcaption>
 </figure>
 
-<br/>
+### Sensor Array
+
 Digital cameras have a **sensor array** of millions of tiny photosites (corresponding to pixels) that are each sensitive to light. The physical size (width and height in mm) as well as
 the number of photosites can vary between sensors. 
 <br/>
@@ -256,6 +258,7 @@ The addition of oblique images ca improve photogrammetry solutions and improve 3
 ___
 ## Camera Settings
 
+### Exposure Triangle
 <figure markdown>
   ![Image title](images/holy_trinity.png){ width="700" }
   <figcaption> </figcaption>
@@ -268,7 +271,7 @@ ___
   <figcaption> </figcaption>
 </figure>
 
-
+### White Balance
 
 White balance: never use automatic white balance! Images will have different hues. Set camera to 'sunny' or 'cloudy'
 
