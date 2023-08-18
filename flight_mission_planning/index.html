@@ -1,0 +1,1084 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Resource Mapping with Drones">
+      
+      
+        <meta name="author" content="Jeffrey Gillan">
+      
+      
+        <link rel="canonical" href="https://jeffgillan.github.io/resource_mapping_with_drones/flight_mission_planning/">
+      
+      <link rel="icon" href="../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Flight Mission Planning - Resource Mapping with Drones</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.975780f9.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,700,700i%7CRegular:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Montserrat";--md-code-font:"Regular"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#camera-characteristics" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Resource Mapping with Drones" class="md-header__button md-logo" aria-label="Resource Mapping with Drones" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 20a6 6 0 0 1-6-6c0-3.09 2.34-5.64 5.35-5.96A7.496 7.496 0 0 1 12 4a7.5 7.5 0 0 1 7.35 6A5.02 5.02 0 0 1 24 15a5 5 0 0 1-5 5H6m12.5-8H18a1 1 0 0 1-1-1v-1a2 2 0 0 0-2-2h-1.5v2H15v1a2 2 0 0 0 2 2 2 2 0 0 0-2 2v1h-1.5v2H15a2 2 0 0 0 2-2v-1a1 1 0 0 1 1-1h.5v-2m-13 0v2H6a1 1 0 0 1 1 1v1a2 2 0 0 0 2 2h1.5v-2H9v-1a2 2 0 0 0-2-2 2 2 0 0 0 2-2v-1h1.5V8H9a2 2 0 0 0-2 2v1a1 1 0 0 1-1 1h-.5Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Resource Mapping with Drones
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Flight Mission Planning
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_3" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9h-1.9M20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69m-9.15 3.96h2.3L12 9l-1.15 3.65Z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="agic" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_3">
+          
+            <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/jeffgillan/resource_mapping_with_drones" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    resource_mapping_with_drones
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Resource Mapping with Drones" class="md-nav__button md-logo" aria-label="Resource Mapping with Drones" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 20a6 6 0 0 1-6-6c0-3.09 2.34-5.64 5.35-5.96A7.496 7.496 0 0 1 12 4a7.5 7.5 0 0 1 7.35 6A5.02 5.02 0 0 1 24 15a5 5 0 0 1-5 5H6m12.5-8H18a1 1 0 0 1-1-1v-1a2 2 0 0 0-2-2h-1.5v2H15v1a2 2 0 0 0 2 2 2 2 0 0 0-2 2v1h-1.5v2H15a2 2 0 0 0 2-2v-1a1 1 0 0 1 1-1h.5v-2m-13 0v2H6a1 1 0 0 1 1 1v1a2 2 0 0 0 2 2h1.5v-2H9v-1a2 2 0 0 0-2-2 2 2 0 0 0 2-2v-1h1.5V8H9a2 2 0 0 0-2 2v1a1 1 0 0 1-1 1h-.5Z"/></svg>
+
+    </a>
+    Resource Mapping with Drones
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/jeffgillan/resource_mapping_with_drones" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    resource_mapping_with_drones
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Drone_Mapping_Applications/" class="md-nav__link">
+        Drone Mapping Applications
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../drone_legality/" class="md-nav__link">
+        Drone Legality
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Flight Mission Planning
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Flight Mission Planning
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#camera-characteristics" class="md-nav__link">
+    Camera Characteristics
+  </a>
+  
+    <nav class="md-nav" aria-label="Camera Characteristics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#focal-length-field-of-view" class="md-nav__link">
+    Focal Length &amp; Field of View
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sensor-array" class="md-nav__link">
+    Sensor Array
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aerial-imagery-scale" class="md-nav__link">
+    Aerial Imagery Scale
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stereo-aerial-photography" class="md-nav__link">
+    Stereo Aerial Photography
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#autonomous-mission-planning" class="md-nav__link">
+    Autonomous Mission Planning
+  </a>
+  
+    <nav class="md-nav" aria-label="Autonomous Mission Planning">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#double-v-single-grid" class="md-nav__link">
+    Double v Single Grid
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oblique-imagery" class="md-nav__link">
+    Oblique Imagery
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gsd-recommendations" class="md-nav__link">
+    GSD Recommendations
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mission-planning-tips" class="md-nav__link">
+    Mission planning Tips
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#camera-settings" class="md-nav__link">
+    Camera Settings
+  </a>
+  
+    <nav class="md-nav" aria-label="Camera Settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exposure-triangle" class="md-nav__link">
+    Exposure Triangle
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#white-balance" class="md-nav__link">
+    White Balance
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../flight_operations/" class="md-nav__link">
+        Flight Operations
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../photogrammetry/" class="md-nav__link">
+        Photogrammetry
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../referencing/" class="md-nav__link">
+        Referencing
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../imagery_products/" class="md-nav__link">
+        Imagery Products
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../multi_spectral/" class="md-nav__link">
+        Multi Spectral
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../natural_resource/" class="md-nav__link">
+        Natural Resource Applications
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../classification/" class="md-nav__link">
+        Classification
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cloud_native/" class="md-nav__link">
+        Cloud Native
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#camera-characteristics" class="md-nav__link">
+    Camera Characteristics
+  </a>
+  
+    <nav class="md-nav" aria-label="Camera Characteristics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#focal-length-field-of-view" class="md-nav__link">
+    Focal Length &amp; Field of View
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sensor-array" class="md-nav__link">
+    Sensor Array
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aerial-imagery-scale" class="md-nav__link">
+    Aerial Imagery Scale
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stereo-aerial-photography" class="md-nav__link">
+    Stereo Aerial Photography
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#autonomous-mission-planning" class="md-nav__link">
+    Autonomous Mission Planning
+  </a>
+  
+    <nav class="md-nav" aria-label="Autonomous Mission Planning">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#double-v-single-grid" class="md-nav__link">
+    Double v Single Grid
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oblique-imagery" class="md-nav__link">
+    Oblique Imagery
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gsd-recommendations" class="md-nav__link">
+    GSD Recommendations
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mission-planning-tips" class="md-nav__link">
+    Mission planning Tips
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#camera-settings" class="md-nav__link">
+    Camera Settings
+  </a>
+  
+    <nav class="md-nav" aria-label="Camera Settings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exposure-triangle" class="md-nav__link">
+    Exposure Triangle
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#white-balance" class="md-nav__link">
+    White Balance
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+
+
+
+                  
+
+  <a href="https://github.com/jeffgillan/resource_mapping_with_drones/edit/main/docs/flight_mission_planning.md" title="Edit this page" class="md-content__button md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+  <h1>Flight Mission Planning</h1>
+
+<figure>
+<p><img alt="Image title" src="../images/mission_planning.png" width="600" />
+  </p>
+<figcaption> </figcaption>
+</figure>
+<p><br/> 
+This module will cover the basics of how to collect drone imagery for photographic mapping purposes. The topics include:</p>
+<ul>
+<li>
+<p>Physical camera characteristics</p>
+</li>
+<li>
+<p>Aerial Imagery Scale</p>
+</li>
+<li>
+<p>Principles of Stereo Photography</p>
+</li>
+<li>
+<p>Autonomous Mission Planning</p>
+</li>
+</ul>
+<p><br/></p>
+<hr />
+<h2 id="camera-characteristics">Camera Characteristics<a class="headerlink" href="#camera-characteristics" title="Permanent link">&para;</a></h2>
+<h3 id="focal-length-field-of-view">Focal Length &amp; Field of View<a class="headerlink" href="#focal-length-field-of-view" title="Permanent link">&para;</a></h3>
+<p>Inside the camera, the <strong>Focal Length</strong> is the distance from the lens to the sensor plane (usually reported in mm)
+<br/></p>
+<figure>
+<p><img alt="Image title" src="../images/focal_length.png" width="750" />
+  </p>
+<figcaption> </figcaption>
+</figure>
+<p><br/></p>
+<p>The <strong>camera field of view (FOV)</strong>, also called the angle of view, is the extent of the observable world that can be seen at any give moment. FOV is typically reported in degrees and can vary greatly between lens and camera types. 
+<br/>
+<br/>
+Typically a camera with a longer focal length will have a narrower FOV and a camera with a shorter focal length will have a wider FOV. Drone cameras often have a fairly wide FOV because they are meant
+to capture landscapes. 
+<br/>
+<br/>
+The graphic below shows the relationship between focal length and FOV. Highlighted is the DJI Phantom 4 multi-rotor drone. </p>
+<figure>
+<p><img alt="Image title" src="../images/focal_length2.png" width="600" />
+  </p>
+<figcaption> </figcaption>
+</figure>
+<h3 id="sensor-array">Sensor Array<a class="headerlink" href="#sensor-array" title="Permanent link">&para;</a></h3>
+<p>Digital cameras have a <strong>sensor array</strong> of millions of tiny photosites (corresponding to pixels) that are each sensitive to light. The physical size (width and height in mm) as well as
+the number of photosites can vary between sensors. 
+<br/>
+<br/>
+The graphic below shows the sensor array of the Phantom 4 camera. Multiplying the number of photosites (pixels) wide by the number of photosites
+high will tell you the total number of photosites for the array. In our example, the camera has 19.9 million pixels, which are also called megapixels. </p>
+<figure>
+<p><img alt="Image title" src="../images/sensor_array.png" width="600" />
+  </p>
+<figcaption>Sensor Array</figcaption>
+</figure>
+<p><br/></p>
+<hr />
+<h2 id="aerial-imagery-scale">Aerial Imagery Scale<a class="headerlink" href="#aerial-imagery-scale" title="Permanent link">&para;</a></h2>
+<p>In traditional aerial photography, <strong>scale</strong> was defined as <em>the ratio of the distance between two points on an image to the actual distance between the same two points on the ground</em>.
+Scale was generally reported as <em>1:25,000</em> or similar. So if I had a printed aerial photograph and measured the distance between two objects to be 0.25 inches and the scale was 1:25,000,
+the real world distance between the objects would be 6250 inches (0.25 x 25,000) or 520.8 feet. 
+<br/>
+<br/>
+However, with the advent of fully digital aerial photography workflows and the computer screen being the primary tool for viewing imagery, the traditional concept of reporting scale is less useful. 
+<br/>
+<br/>
+When it comes to drone imagery scale, the two important concepts to understand are <strong>image footprint</strong> and <strong>ground sampling distance</strong>.<br />
+<br/></p>
+<p><strong>Image Footprint</strong> is the rectangular ground area that is captured by a camera exposure. </p>
+<p><strong>Ground Sampling Distance (GSD)</strong> is the width of area on the ground that is captured by one pixel. It is also commonly referred to as <em>pixel size</em> or <em>spatial resolution</em>.
+For example, a pixel that captures an area of 2 x 2 cm (4 cm<sup>2</sup>) is said to have a GSD of 2 cm. 
+<br/><br/></p>
+<figure>
+<p><img alt="Image title" src="../images/gsd_footprint.png" width="700" />
+  </p>
+<figcaption> </figcaption>
+</figure>
+<p><br/><br/>
+As a drone camera gets higher in the sky (further away from the ground), the image footprint and GSD get larger.
+<br/></p>
+<figure>
+<p><img alt="Image title" src="../images/combined_scale2.gif" width="800" />
+  </p>
+<figcaption> </figcaption>
+</figure>
+<p>We can calculate the image footprint and GSD with simple formulas that include the camera physical characteristics and flying height. </p>
+<details class="tip">
+<summary>Image Footprint and GSD Calculator</summary>
+<p><a href="https://www.pix4d.com/" target="_blank">Pix4D</a> has a nice <a href="[https://support.pix4d.com/hc/en-us/articles/202560249-TOOLS-GSD-calculator]      (https://s3.amazonaws.com/mics.pix4d.com/KB/documents/Pix4D_GSD_Calculator.xlsx)" target="_blank">GSD calculator tool</a> to calculate image dimensions and pixel ground sampling distance based on your drone specs
+<figure markdown>
+ <img alt="Image title" src="../images/gsd_calculator.png" width="700" />
+  <figcaption> </figcaption>
+</figure></p>
+</details>
+<p><br/>
+Check out this video which describes how to calculate GSD of aerial images</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nUFxmecRCec" title="Scale and Digital Aerial Imagery" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p><br/><br/></p>
+<hr />
+<h2 id="stereo-aerial-photography">Stereo Aerial Photography<a class="headerlink" href="#stereo-aerial-photography" title="Permanent link">&para;</a></h2>
+<p>Photographic mapping from drones requires overlapping imagery. That is, as the drone is flying and taking pictures, the image footprints should overlap. Overlap is usually reported as a percentage (%). <strong>Forward overlap</strong> is the overlap % from successive image footprints. <strong>Side overlap</strong> is the overlap % from adjacent flight lines. </p>
+<figure>
+<p><img alt="Image title" src="../images/stereo_imagery.png" width="350" />
+  </p>
+<figcaption> </figcaption>
+</figure>
+<p>For robust photogrammetry, it is recommended to have <strong>forward overlap of 70%-85%</strong> and <strong>side overlap of 70%-80%</strong>. But these are not hard and fast rules, just recommendations. Optimal overlap will differ depending on the landscape you are imaging and your goal for your imagery products. </p>
+<figure>
+<p><img alt="Image title" src="../images/Forward_overlap.gif" width="550" />
+  </p>
+<figcaption> </figcaption>
+</figure>
+<p><br/><br/>
+Footprint overlap means that any given location on the ground is being imaged from multiple perspectives. In the example graphic below, the shrub is being imaged from 6 different perpective views.  </p>
+<figure>
+<p><img alt="Image title" src="../images/six_views.png" width="450" />
+  </p>
+<figcaption> </figcaption>
+</figure>
+<p><br/><br/></p>
+<hr />
+<h2 id="autonomous-mission-planning">Autonomous Mission Planning<a class="headerlink" href="#autonomous-mission-planning" title="Permanent link">&para;</a></h2>
+<p>The most efficient way to collect overlapping drone imagery of a landscape is to plan and execute an <strong>autonomous flight plan</strong>. Nearly all modern drones have software applications that empower you program the drone to capture imagery of an area interest - all automatically! </p>
+<p>Please check out the following video for an example of autonomous mission planning. All autonomous planning and flying apps will be slightly different from each other, but the basics are generally universal. It can be as simple as tapping a bounding box, selecting a few user parameters, and launching the drone!  </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XoPV-eT-1Ds" title="Ultimate Pix4D tutorial 3D mapping" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<p><br/></p>
+<p>Autonomous planning and flying apps generally have a suite of user-defined parameters that enable you to customize your flight. These parameters include:</p>
+<ul>
+<li>
+<p>A box or polygon designating the area to be imaged</p>
+</li>
+<li>
+<p>Flying height (m) </p>
+</li>
+<li>
+<p>Ground sampling distance (cm) </p>
+</li>
+<li>
+<p>Forward overlap (%) and side overlap (%)</p>
+</li>
+<li>
+<p>Flying speed (m/s)</p>
+</li>
+<li>
+<p>Gimbal angle </p>
+</li>
+</ul>
+<p>Based on the user-defined parameters, the mapping software will compute the following:</p>
+<ul>
+<li>
+<p>Exact flying route including the number and spacing of flight lines</p>
+</li>
+<li>
+<p>Timing between exposures</p>
+</li>
+</ul>
+<figure>
+<p><img alt="Image title" src="../images/planned_mission.png" width="350" />
+  </p>
+<figcaption> </figcaption>
+</figure>
+<figure>
+<p><img alt="Image title" src="../images/exposure_stations.png" width="500" />
+  </p>
+<figcaption> </figcaption>
+</figure>
+<details class="tip">
+<summary>Calculate Number of Images per Flight Line</summary>
+<p><figure markdown>
+ <img alt="Image title" src="../images/images_per_line.png" width="500" />
+  <figcaption> </figcaption>
+</figure></p>
+</details>
+<details class="tip">
+<summary>Calculate Number of Flight Lines for a Flight Area</summary>
+<p><figure markdown>
+ <img alt="Image title" src="../images/flight_lines.png" width="500" />
+  <figcaption> </figcaption>
+</figure></p>
+</details>
+<figure>
+<p><img alt="Image title" src="../images/controller_screenshot1.png" width="700" />
+  </p>
+<figcaption> </figcaption>
+</figure>
+<figure>
+<p><img alt="Image title" src="../images/controller_screenshot2.png" width="700" />
+  </p>
+<figcaption> </figcaption>
+</figure>
+<h3 id="double-v-single-grid">Double v Single Grid<a class="headerlink" href="#double-v-single-grid" title="Permanent link">&para;</a></h3>
+<p><strong>Double Grid Advantages:</strong></p>
+<p>Better photographic coverage leading to better 3D modeling
+<br/>
+<br/></p>
+<p><strong>Double Grid Disadvantages:</strong> </p>
+<p>Longer flight times; larger datasets that take longer to process</p>
+<p><img alt="Image title" src="../images/single_grid.png" width="285" /> <img alt="Image title" src="../images/double_grid.png" width="350" /></p>
+<h3 id="oblique-imagery">Oblique Imagery<a class="headerlink" href="#oblique-imagery" title="Permanent link">&para;</a></h3>
+<p>Aerial mapping is typically vertical (nadir) but oblique images can also be used in photogrammetry.
+The addition of oblique images ca improve photogrammetry solutions and improve 3D point clouds at the base of vertical objects</p>
+<figure>
+<p><img alt="Image title" src="../images/nadir_oblique.png" width="300" />
+  </p>
+<figcaption> </figcaption>
+</figure>
+<figure>
+<p><img alt="Image title" src="../images/nadir_plus_oblique.png" width="600" />
+  </p>
+<figcaption> </figcaption>
+</figure>
+<h3 id="gsd-recommendations">GSD Recommendations<a class="headerlink" href="#gsd-recommendations" title="Permanent link">&para;</a></h3>
+<p>Features of interest should drive the optimal GSD; detecting (and 3D modeling) small objects requires finer GSD; Coarser GSD will lead to coarser 3D modeling</p>
+<figure>
+<p><img alt="Image title" src="../images/GSD_recommendations.png" width="700" />
+  </p>
+<figcaption> </figcaption>
+</figure>
+<p><br/><br/></p>
+<h3 id="mission-planning-tips">Mission planning Tips<a class="headerlink" href="#mission-planning-tips" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>Collect imagery with pre-programmed autonomous flights. Don’t try to collect imagery with manual flying! </p>
+</li>
+<li>
+<p>Make your flight areas into simple polygons like rectangles. Don’t draw complicated flight areas.</p>
+</li>
+<li>
+<p>Make the flight polygon bigger than your area of interest by 10-15%. The periphery of imagery products are often of less quality.</p>
+</li>
+<li>
+<p>Small alterations to flying height and polygon size can make a big difference in how long the total mission takes </p>
+</li>
+<li>
+<p>Always plan flights around quantity and endurance of your flight batteries
+<br/><br/></p>
+</li>
+</ul>
+<hr />
+<h2 id="camera-settings">Camera Settings<a class="headerlink" href="#camera-settings" title="Permanent link">&para;</a></h2>
+<h3 id="exposure-triangle">Exposure Triangle<a class="headerlink" href="#exposure-triangle" title="Permanent link">&para;</a></h3>
+<figure>
+<p><img alt="Image title" src="../images/holy_trinity.png" width="700" />
+  </p>
+<figcaption> </figcaption>
+</figure>
+<figure>
+<p><img alt="Image title" src="../images/motion_blur.png" width="700" />
+  </p>
+<figcaption> </figcaption>
+</figure>
+<h3 id="white-balance">White Balance<a class="headerlink" href="#white-balance" title="Permanent link">&para;</a></h3>
+<p>White balance: never use automatic white balance! Images will have different hues. Set camera to 'sunny' or 'cloudy'</p>
+<figure>
+<p><img alt="Image title" src="../images/white_balance.png" width="700" />
+  </p>
+<figcaption> </figcaption>
+</figure>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bTIgjjeYtWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+  <hr>
+<div class="md-source-file">
+  <small>
+    
+      Last update:
+      2023-08-18
+    
+  </small>
+</div>
+
+
+
+
+
+                
+
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../drone_legality/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Drone Legality" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Drone Legality
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../flight_operations/" class="md-footer__link md-footer__link--next" aria-label="Next: Flight Operations" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Flight Operations
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      License CC by 4.0
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      
+    
+    
+  </body>
+</html>
